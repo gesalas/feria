@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body style="background-color: #02599a; padding:100px;">
+    <style>
+        #formulario{    
+        --fa-style-family-brands: "Font Awesome 6 Brands";
+        --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+        --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+        --fa-style-family-classic: "Font Awesome 6 Free";
+        --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+        --animate-duration: 1s;
+        --animate-delay: 1s;
+        --animate-repeat: 1;
+        --swiper-theme-color: #007aff;
+        --swiper-navigation-size: 44px;
+        --bs-blue: #0d6efd;
+        --bs-indigo: #6610f2;
+        --bs-purple: #6f42c1;
+        --bs-pink: #d63384;
+        --bs-red: #dc3545;
+        --bs-yellow: #ffc107;
+        --bs-green: #198754;
+        --bs-teal: #20c997;
+        --bs-cyan: #0dcaf0;
+        --bs-black: #000;
+        --bs-white: #fff;
+        --bs-gray-dark: #343a40;
+        --bs-gray-100: #f8f9fa;
+        --bs-gray-200: #e9ecef;
+        --bs-gray-300: #dee2e6;
+        --bs-gray-400: #ced4da;
+        --bs-gray-500: #adb5bd;
+        --bs-gray-600: #6c757d;
+        --bs-gray-700: #495057;
+        --bs-gray-800: #343a40;
+        --bs-gray-900: #212529;
+        --bs-primary: #026fc1;
+        --bs-secondary: #e93a7d;
+        --bs-success: #25dac5;
+        --bs-info: #1e0e62;
+        --bs-warning: #ffbd0e;
+        --bs-danger: #dc3545;
+        --bs-light: #f8f9fa;
+        --bs-dark: #212121;
+        --bs-orange: #e3753a;
+        --bs-gray: #707070;
+        --bs-simposio: #668366;
+        --bs-verde: #acc70f;
+        --bs-verdeAlt: #72ba1e;
+        --bs-verdeAlt2: #028874;
+        --bs-azulAlt: #018ab9;
+        --bs-celesteAlt: #2ec9d1;
+        --bs-amarilloAlt: #ffcd00;
+        --bs-rosa: #f57abd;
+        --bs-violeta: #784aa4;
+        --bs-azul: #2c5595;
+        --bs-celeste: #73d6f9;
+        --bs-bordo: #a74731;
+        --bs-primary-rgb: 2,111,193;
+        --bs-secondary-rgb: 233,58,125;
+        --bs-success-rgb: 37,218,197;
+        --bs-info-rgb: 30,14,98;
+        --bs-warning-rgb: 255,189,14;
+        --bs-danger-rgb: 220,53,69;
+        --bs-light-rgb: 248,249,250;
+        --bs-dark-rgb: 33,33,33;
+        --bs-orange-rgb: 227,117,58;
+        --bs-gray-rgb: 112,112,112;
+        --bs-simposio-rgb: 102,131,102;
+        --bs-verde-rgb: 172,199,15;
+        --bs-verdeAlt-rgb: 114,186,30;
+        --bs-verdeAlt2-rgb: 2,136,116;
+        --bs-azulAlt-rgb: 1,138,185;
+        --bs-celesteAlt-rgb: 46,201,209;
+        --bs-amarilloAlt-rgb: 255,205,0;
+        --bs-rosa-rgb: 245,122,189;
+        --bs-violeta-rgb: 120,74,164;
+        --bs-azul-rgb: 44,85,149;
+        --bs-celeste-rgb: 115,214,249;
+        --bs-bordo-rgb: 167,71,49;
+        --bs-white-rgb: 255,255,255;
+        --bs-black-rgb: 0,0,0;
+        --bs-body-color-rgb: 33,37,41;
+        --bs-body-bg-rgb: 255,255,255;
+        --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+        --bs-gradient: linear-gradient(180deg,rgba(255,255,255,.15),rgba(255,255,255,0));
+        --bs-body-font-family: var(--bs-font-sans-serif);
+        --bs-body-font-size: 1rem;
+        --bs-body-font-weight: 400;
+        --bs-body-line-height: 1.5;
+        --bs-body-color: #212529;
+        --bs-body-bg: #fff;
+        --bs-border-width: 1px;
+        --bs-border-style: solid;
+        --bs-border-color: #dee2e6;
+        --bs-border-color-translucent: rgba(0,0,0,.175);
+        --bs-border-radius: .375rem;
+        --bs-border-radius-sm: .25rem;
+        --bs-border-radius-lg: .5rem;
+        --bs-border-radius-xl: 1rem;
+        --bs-border-radius-2xl: 2rem;
+        --bs-border-radius-pill: 50rem;
+        --bs-link-color: #026fc1;
+        --bs-link-hover-color: #02599a;
+        --bs-code-color: #d63384;
+        --bs-highlight-bg: #fff3cd;
+        --header-h: 550px;
+        --wp--preset--color--black: #000000;
+        --wp--preset--color--cyan-bluish-gray: #abb8c3;
+        --wp--preset--color--white: #ffffff;
+        --wp--preset--color--pale-pink: #f78da7;
+        --wp--preset--color--vivid-red: #cf2e2e;
+        --wp--preset--color--luminous-vivid-orange: #ff6900;
+        --wp--preset--color--luminous-vivid-amber: #fcb900;
+        --wp--preset--color--light-green-cyan: #7bdcb5;
+        --wp--preset--color--vivid-green-cyan: #00d084;
+        --wp--preset--color--pale-cyan-blue: #8ed1fc;
+        --wp--preset--color--vivid-cyan-blue: #0693e3;
+        --wp--preset--color--vivid-purple: #9b51e0;
+        --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);
+        --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);
+        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);
+        --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);
+        --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);
+        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);
+        --wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);
+        --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);
+        --wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);
+        --wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);
+        --wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);
+        --wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);
+        --wp--preset--font-size--small: 14px;
+        --wp--preset--font-size--medium: 20px;
+        --wp--preset--font-size--large: 22px;
+        --wp--preset--font-size--x-large: 42px;
+        --wp--preset--font-size--normal: 16px;
+        --wp--preset--font-size--huge: 28px;
+        --wp--preset--spacing--20: 0.44rem;
+        --wp--preset--spacing--30: 0.67rem;
+        --wp--preset--spacing--40: 1rem;
+        --wp--preset--spacing--50: 1.5rem;
+        --wp--preset--spacing--60: 2.25rem;
+        --wp--preset--spacing--70: 3.38rem;
+        --wp--preset--spacing--80: 5.06rem;
+        --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+        --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+        --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+        font-size: var(--bs-body-font-size);
+        font-weight: var(--bs-body-font-weight);
+        line-height: var(--bs-body-line-height);
+        color: var(--bs-body-color);
+        text-align: var(--bs-body-text-align);
+        -webkit-text-size-adjust: 100%;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+        font-family: "Montserrat",sans-serif;
+        --bs-bg-opacity: 1;
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        visibility: visible;
+        box-sizing: border-box;
+        margin-bottom: 3rem !important;
+        padding-top: 1rem !important;
+        padding-bottom: 1.5rem !important;
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+        border-radius: 30px;
+        background-color: rgba(var(--bs-light-rgb), 0.8) !important;
+    }    
+    </style>
+    <div id="formulario" class="rounded-30 px-2 px-md-3 py-4 mb-50 shadows-sm" style="background-color: rgba(var(--bs-light-rgb), 0.8) !important;">
+        <div class="form-row justify-content-center align-items-center mb-3 mx-2">
+            <div class="col">
+                <h3 class="d-block fs-4 text-azul fw-bold text-center text-uppercase">Inscríbete aquí</h3>
+            </div>
+        </div>                  
+        <form id="form_me" action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D7j0000004eQD" method="post" novalidate aria-label="Formulario de contacto" novalidate="novalidate" class="needs-validation">
+        <input type=hidden name="oid" value="00D7j0000004eQD">
+        <input type=hidden name="retURL" value="https://unijaveriana--prue7feb23.sandbox.lightning.force.com/lightning/setup/LeadWebtoleads/page?address=%2F_ui%2Fcommon%2Fconfig%2Fentity%2FWebToLeadUi%2Fe%3FretURL%3D%252Flead%252Fleadcapture.jsp%26setupid%3DLeadWebtoleads">
+        <!--  modo de depuración-->
+        <input type="hidden" name="debug" value=1>
+        <input type="hidden" name="debugEmail"
+        value="gesalas@javeriana.edu.co">
+
+        <form action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" novalidate="novalidate" class="needs-validation">
+
+        <input type=hidden name="oid" value="00D7j0000004eQD">
+        <input type=hidden name="retURL" value="https://www.javeriana.edu.co/thank-you-page-ciencias-sociales-pre">
+
+                
+                <div class="form-row gap-1 justify-content-center" style="padding:20px;">
+
+                    <!--Nombres y apellidos-->
+                    <div class="form-row col-12">
+                        <div class="form-group col-md-6 col-sm-12">
+                            <input placeholder="*Nombre(s)" id="first_name" class="form-control border-top-0 border-left-0 border-right-0 rounded-1" maxlength="40" name="first_name" type="text" required="">
+                            <div class="invalid-feedback">
+                                Completa este campo
+                            </div>
+                        </div>
+
+                        <div class="form-group col-md-6 col-sm-12">
+                            <input placeholder="*Apellidos" id="last_name" class="form-control border-top-0 border-left-0 border-right-0 rounded-1" maxlength="80" name="last_name" type="text" required="">
+                            <div class="invalid-feedback">
+                                Completa este campo
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Documentos de identidad-->
+                    <div class="form-row col-12">
+                        <div class="form-group col-5">
+                            <select id="00N7j000002BI3X" name="00N7j000002BI3X" class="form-control border-top-0 border-left-0 border-right-0 rounded-1" required="">
+                                <option value="">*Tipo de documento</option>
+                                <option value="DR">Documento RAI</option>
+                                <option value="A_ID">Anterior ID (Doble ID)</option>
+                                <option value="N_ID">Nuevo ID (Doble ID)</option>
+                                <option value="CR">Contraseña Registraduria</option>
+                                <option value="LM">Libreta Militar</option>
+                                <option value="CC">Cédula Ciudadanía</option>
+                                <option value="CE">Cédula Extranjería</option>
+                                <option value="NIT">No Identificación Tributaria</option>
+                                <option value="PA">Pasaporte</option>
+                                <option value="SE">Sin Especificar</option>
+                                <option value="TI">Tarjeta Identidad</option>
+                                <option value="NUIP">Nro Único de Identific Persona</option>
+                                <option value="CP">Carné Diplomarico</option>
+                                <option value="CG">Consecutivo Grados</option>
+                                <option value="CI">Cedula de Identidad</option>
+                                <option value="EX">Extranjería</option>
+                                <option value="OD">Otro Documento</option>
+                                <option value="PEP">Permiso Especial Permanencia</option>
+                                <option value="PTP">Permiso Temporal Protección</option>    
+                                <!-- Agregar opciones aquí -->
+                            </select>
+                            <div class="invalid-feedback">
+                                Selecciona
+                            </div>
+                        </div>
+
+                        <div class="form-group col-7">
+                            <input placeholder="*Número de documento" id="00N7j000002BI3V" class="form-control border-top-0 border-left-0 border-right-0 rounded-1" maxlength="255" name="00N7j000002BI3V" type="number" required="">
+                        </div>
+                    </div>
+                    <!--Email y celular-->
+                    <div class="form-row col-12">
+                        <div class="form-group col-12">
+                            <input placeholder="*Email" id="email" class="form-control border-top-0 border-left-0 border-right-0 rounded-1" maxlength="80" name="email" type="email" required="">
+                            <div class="invalid-feedback">
+                                Ingresa un correo válido
+                            </div>
+                        </div>
+                        
+                        <script>
+                            const emailInput = document.getElementById('email');
+                        
+                            emailInput.addEventListener('input', () => {
+                                const emailValue = emailInput.value;
+                                const atIndex = emailValue.indexOf('@');
+                                const dotIndex = emailValue.lastIndexOf('.');
+                                
+                                if (atIndex === -1 || dotIndex === -1 || dotIndex < atIndex) {
+                                    emailInput.setCustomValidity('Ingresa una dirección de correo electrónico válida');
+                                } else {
+                                    emailInput.setCustomValidity('');
+                                }
+                            });
+                        </script>
+                        
+                    <!--Telefono-->
+                        <div class="form-group col-12">
+                            <input placeholder="*Teléfono celular" id="mobile" class="form-control border-top-0 border-left-0 border-right-0 rounded-1" name="mobile" type="text" minlength="8" required>
+                            <div class="invalid-feedback">
+                                Completa este campo (mínimo 8 caracteres)
+                            </div>
+                        </div>
+                        
+                    </div>
+                        
+                    <!--Ubicacion-->
+                    <div class="form-row col-12 ">
+                        <!-- Pais -->
+                        <div class="form-group col-12">
+                            <select class="form-control border-top-0 border-left-0 border-right-0 rounded-1" id="00N7j000002BY1c" name="00N7j000002BY1c" type="text" required>
+                                <option value="">*Pais de residencia</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Selecciona
+                            </div>
+                        </div>
+                    
+                        <!-- Departamento -->
+                        <div class="form-group col-md-6 col-sm-12" id="departamentoContainer" style="display: none;">
+                            <select class="form-control border-top-0 border-left-0 border-right-0 rounded-1" id="00N7j000002BY1h" name="00N7j000002BY1h" type="text" >
+                                <option value="">*Selecciona el departamento</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Selecciona
+                            </div>
+                        </div>
+                    
+                        <!-- Ciudad -->
+                        <div class="form-group col-md-6 col-sm-12" id="ciudadContainer" style="display: none;">
+                            <select class="form-control border-top-0 border-left-0 border-right-0 rounded-1" id="00N7j000002BY1i" name="00N7j000002BY1i" type="text" >
+                                <option value="">*Selecciona la Ciudad</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Selecciona
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tipo de asistente-->
+                    <div class="form-row col-12">
+                        <div class="col-md-6 col-sm-12">
+                            <span class="wpcf7-form-control-wrap">
+                                <select class="form-control select validates-as-required form-select rounded-1 text-dark mb-3" name="00NO40000000sTR" id="00NO40000000sTR" required> 
+                                    <option value="">Tipo de asistente</option>
+                                    <option value="Aspirante">Aspirante</option>
+                                    <option value="Estudiante PUJ">Estudiante PUJ</option>
+                                    <option value="Acudiente">Acudiente</option>
+                                    <option value="Padre de familia">Padre de familia</option>
+                                    <option value="Visitante PUJ">Visitante PUJ</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Selecciona
+                                </div>                                
+                            </span>
+                        </div>
+
+                        <!--Nivel académico-->
+                        <div class="col-md-6 col-sm-12" id="nivelAcademicoRow">
+                            <span class="wpcf7-form-control-wrap">
+                                <select id="nivelacademico" class="form-control select validates-as-required form-select rounded-1 text-dark mb-3"  name="nivelacademico">
+                                    <option value="">Nivel académico</option>
+                                    <option value="PREG">Pregrado</option>
+                                    <option value="GRAD">Posgrado</option>
+                                    <option value="ECLE">Eclesiástico</option>
+                                    <option value="ETDH">Técnico</option>
+                                </select>                                
+                            </span>
+                        </div>
+                    </div>
+
+                    <!--Facultad-->
+                    <div class="form-row col-12">
+                        <div class="col-12">
+                            <span class="wpcf7-form-control-wrap">
+                                <select id="Facultad" class="form-control select validates-as-required form-select rounded-1 text-dark  mb-3" name="Facultad">
+                                    <option value="">Seleccionar facultad</option>
+                                </select>                                
+                            </span>
+                        </div>
+                    </div>
+
+                    <!--Programa-->
+                    <div class="form-row col-12" >
+                        <div class="col-12">
+                            <span class="wpcf7-form-control-wrap">
+                                <select id="00N7j000002BI3p" class="form-control select validates-as-required form-select rounded-1 text-dark mb-3" name="00N7j000002BI3p">
+                                    <option value="">Selecciona el programa</option>
+                                </select>                            
+                            </span>
+                        </div>
+                    </div>
+
+                    <!--Periodo de Ingreso-->
+                    <div class="form-row col-12" >
+                        <div class="col-12 mb-3">
+                            <span class="wpcf7-form-control-wrap">
+                                <select  id="00N7j000002BY2L" maxlength="20" name="00N7j000002BY2L" class="form-control select validates-as-required form-select rounded-1 text-dark mb-3">
+                                    <option value="">Periodo esperado de Ingreso</option>
+                                </select>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- para ocultar-->
+                    <div style="display: none;">
+                        <div class="form-row">
+                            Origen de la Solicitud:<select  id="00NO40000002ZeP" name="00NO40000002ZeP" title="Origen de la Solicitud">
+                                <option value="Web to Lead">Web to Lead</option>
+                                </select>
+
+                            Fuente autorización datos personales:<select  id="00N7j000002BY26" name="00N7j000002BY26" title="Fuente autorización datos personales">
+                                <option value="Landing Expojaveriana">Landing Expojaveriana</option>
+                                </select>
+                            <label for="lead_source">Origen del candidato</label><select  id="lead_source" name="lead_source">
+                                <option value="Landing Pages">Landing Pages</option>
+                                </select>
+                        </div>
+
+                        <!--UTMS-->
+                        <div class="form-row">
+                            Fuente:<input  id="00N7j000002BKgW" name="00N7j000002BKgW" title="Fuente" type="text"/>
+                            Subfuente:<input  id="00N7j000002BKgb" name="00N7j000002BKgb" title="Subfuente" type="text"/>
+                            Medio <input  id="00NO40000001izt" name="00NO40000001izt" title="Medio" type="text"/>
+                            Campaña:<input  id="00N7j000002BfkF" maxlength="255" name="00N7j000002BfkF"  type="text"/>
+                        </div>
+                    </div>                    
+
+                    <!--Legales y botón de inscripción-->                    
+                    <div class="form-row col-12 mb-3">
+                        <div class="col-12">
+                            <span class="d-block text-azul">¿Autoriza usted el tratamiento de sus datos personales de acuerdo con la <a href="https://javeriana.ingresouniversitario.com/wp-content/uploads/2023/09/autorizacion-de-privacidad.pdf" class=" text-azul fw-medium text-decoration-underline" target="_blank" download="">autorización de privacidad</a>?</span>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" id="00N7j000002BI3m" name="00N7j000002BI3m" value="1">
+                                <label class="form-check-label text-azul" for="00N7j000002BI3m">Sí</label><br>                                
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="00N7j000002BI3m" id="00N7j000002BI3m" value="0">
+                                <label class="form-check-label text-azul" for="autorizacion-2">No</label>
+                            </div>                                                            
+                        </div>
+                        <div class="col-md-12" id="autorizacionErrorMessage" style="display: none;">
+                            <p style="color: brown;">La Pontificia Universidad Javeriana requiere de su autorización para el tratamiento de sus datos personales para continuar con el presente proceso, sin la autorización legalmente no podemos darle continuidad al mismo</p>
+                        </div>
+                    </div>
+                    <!--Botón-->
+                    <div class="form-row col-12 mb-3">
+                        <div class="col-12">
+                            <button class="btn btn-warning w-100 py-2 text-azul fw-bold" type="submit">Inscríbete ahora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!--Validaciones-->
+    <script>
+        // Bootstrap Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function(form) {
+                form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+                }, false);
+            });
+            }, false);
+        })();
+
+        // Validación de caracteres AZ
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const nombreInput = document.getElementById('first_name');
+            const apellidosInput = document.getElementById('last_name');
+    
+            const validarLetras = function(input) {
+                input.addEventListener('keydown', function(event) {
+                    const teclaPresionada = event.key;
+                    const permitirCaracter = /^[A-Za-záéíóúüÁÉÍÓÚÜñÑ\s]+$/;
+    
+                    if (!permitirCaracter.test(teclaPresionada)) {
+                        event.preventDefault();
+                    }
+                });
+            };
+    
+            validarLetras(nombreInput);
+            validarLetras(apellidosInput);
+        });
+
+        // Validacion de número de telefono
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileInput = document.getElementById('mobile');
+    
+            mobileInput.addEventListener('input', function() {
+                // Limpiar el valor ingresado, eliminando cualquier caracter no numérico
+                this.value = this.value.replace(/[^0-8]/g, '');
+    
+                // Verificar si tiene al menos 8 dígitos
+                if (this.value.length < 8) {
+                    this.setCustomValidity('El teléfono debe tener al menos 9 dígitos.');
+                } else {
+                    this.setCustomValidity('');
+                }
+            });
+        });
+            
+    // SCRIPT UBICACION-->
+    
+        // Función para cargar las opciones de los desplegables desde el archivo JSON
+        function cargarOpciones() {
+            fetch('ubicaciones.json')
+                .then(response => response.json())
+                .then(data => {
+                    const paisSelect = document.getElementById('00N7j000002BY1c');
+                    const departamentoSelect = document.getElementById('00N7j000002BY1h');
+                    const ciudadSelect = document.getElementById('00N7j000002BY1i');
+                    const departamentoContainer = document.getElementById('departamentoContainer');
+                    const ciudadContainer = document.getElementById('ciudadContainer');
+
+                    // Cargar opciones de país
+                    for (const pais in data) {
+                        const option = document.createElement('option');
+                        option.value = pais;
+                        option.textContent = data[pais].nombre;
+                        if (pais === "COL") {
+                            option.style.fontWeight = '700';                            
+                        }
+                        else{
+                            
+                        }
+                        paisSelect.appendChild(option);
+                    }                   
+                
+    
+                    // Manejar cambio de selección de país
+                    paisSelect.addEventListener('change', () => {
+                        const paisSeleccionado = paisSelect.value;
+                        const departamentoData = data[paisSeleccionado]?.departamentos;
+    
+                        if (departamentoData) {
+                            departamentoContainer.style.display = 'block';
+                            ciudadContainer.style.display = 'block';
+                            ciudadSelect.required = true;
+                            departamentoSelect.required = true;
+    
+                            // Cargar opciones de departamento
+                            departamentoSelect.innerHTML = '';
+                            const defaultDeptOption = document.createElement('option');
+                            defaultDeptOption.value = '';
+                            defaultDeptOption.textContent = '*Selecciona el departamento';
+                            departamentoSelect.appendChild(defaultDeptOption);
+                            for (const depto of departamentoData) {
+                                const option = document.createElement('option');
+                                option.value = depto.codigo;
+                                option.textContent = depto.nombre;
+                                departamentoSelect.appendChild(option);
+                            }
+    
+                            // Cargar opciones de ciudad (para el departamento seleccionado)
+                            const departamentoSeleccionado = departamentoSelect.value;
+                            const ciudadData = departamentoData.find(depto => depto.codigo === departamentoSeleccionado)?.ciudades;
+    
+                            ciudadSelect.innerHTML = '';
+                            const defaultCiudadOption = document.createElement('option');
+                            defaultCiudadOption.value = '';
+                            defaultCiudadOption.textContent = '*Primero selecciona el departamento';
+                            ciudadSelect.appendChild(defaultCiudadOption);
+    
+                            if (ciudadData) {
+                                for (const ciudad of ciudadData) {
+                                    const option = document.createElement('option');
+                                    option.value = ciudad.codigo;
+                                    option.textContent = ciudad.nombre;
+                                    ciudadSelect.appendChild(option);
+                                }
+                            }
+                        } else {
+                            departamentoContainer.style.display = 'none';
+                            ciudadContainer.style.display = 'none';
+                            departamentoSelect.innerHTML = '';
+                            ciudadSelect.innerHTML = '';
+                            ciudadSelect.required = false;
+                            departamentoSelect.required = false;
+                        }
+                    });
+    
+                    // Manejar cambio de selección de departamento
+                    departamentoSelect.addEventListener('change', () => {
+                        const paisSeleccionado = paisSelect.value;
+                        const departamentoSeleccionado = departamentoSelect.value;
+                        const ciudadData = data[paisSeleccionado]?.departamentos.find(depto => depto.codigo === departamentoSeleccionado)?.ciudades;
+    
+                        ciudadSelect.innerHTML = '';
+                        const defaultCiudadOption = document.createElement('option');
+                        defaultCiudadOption.value = '';
+                        defaultCiudadOption.textContent = '*Selecciona la ciudad';
+                        ciudadSelect.appendChild(defaultCiudadOption);
+    
+                        if (ciudadData) {
+                            for (const ciudad of ciudadData) {
+                                const option = document.createElement('option');
+                                option.value = ciudad.codigo;
+                                option.textContent = ciudad.nombre;
+                                ciudadSelect.appendChild(option);
+                            }
+                        }
+                    });
+                })
+                .catch(error => console.error('Error al cargar el archivo JSON:', error));
+        }
+    
+        // Llamar a la función al cargar la página
+        cargarOpciones();
+    
+    //<!--Script niveles académicos y programas-->
+        document.addEventListener("DOMContentLoaded", function() {
+            var tipoAsistenteDropdown = document.getElementById('00NO40000000sTR');
+            var nivelAcademicoRow = document.getElementById('nivelAcademicoRow');
+            var nivelAcademicoDropdown = document.getElementById('nivelacademico');
+            var facultadDropdown = document.getElementById('Facultad');
+            var programaDropdown = document.getElementById('00N7j000002BI3p');
+            var periodoDropdown = document.getElementById('00N7j000002BY2L');
+            
+            // Ocultar desplegables al inicio
+            nivelAcademicoRow.style.display = 'none';
+            nivelAcademicoDropdown.style.display = 'none';
+            facultadDropdown.style.display = 'none';
+            programaDropdown.style.display = 'none';
+            periodoDropdown.style.display = 'none';
+            
+            tipoAsistenteDropdown.addEventListener('change', function() {
+                if (this.value === 'Aspirante') {
+                    // Mostrar desplegables
+                    nivelAcademicoRow.style.display = 'block';
+                    nivelAcademicoDropdown.style.display = 'block';
+
+                    // Hacer desplegables obligatorios
+                    nivelAcademicoDropdown.required = true;
+                    facultadDropdown.required = true;
+                    programaDropdown.required = true;
+                    periodoDropdown.required = true;
+
+                    // Cargar el archivo JSON
+                    fetch('programas.json')
+                        .then(response => response.json())
+                        .then(data => {
+                            // Manejar los datos del JSON
+                            var programas = data;
+
+                            // Evento para cambiar las facultades al seleccionar nivel académico
+                            nivelAcademicoDropdown.addEventListener('change', function() {
+                                var selectedNivel = this.value;
+                                facultadDropdown.innerHTML = '<option value="">Seleccionar facultad</option>';
+                                programaDropdown.innerHTML = '<option value="">Selecciona el programa</option>';
+                                if (selectedNivel !== "") {
+                                    var facultades = programas[selectedNivel];
+                                    Object.keys(facultades).forEach(function(facultadKey) {
+                                        var facultad = facultades[facultadKey];
+                                        facultadDropdown.innerHTML += '<option value="' + facultad.FacultadCodigo + '">' + facultad.FacultadCodigo + '</option>';
+                                    });
+                                    facultadDropdown.style.display = 'block';
+                                    facultadDropdown.required = true;                                    
+                                } else {
+                                    facultadDropdown.style.display = 'none';
+                                    programaDropdown.style.display = 'none';
+                                    facultadDropdown.required = false;
+                                    programaDropdown.required = false;                                    
+                                }
+                            });
+
+                            // Evento para cambiar los programas al seleccionar facultad
+                            facultadDropdown.addEventListener('change', function() {
+                                var selectedNivel = nivelAcademicoDropdown.value;
+                                var selectedFacultad = this.value;
+                                programaDropdown.innerHTML = '<option value="">Selecciona el programa</option>';
+                                if (selectedFacultad !== "") {
+                                    var programasFacultad = programas[selectedNivel][selectedFacultad].Programas;
+                                    programasFacultad.forEach(function(programa) {
+                                        programaDropdown.innerHTML += '<option value="' + programa.Codigo + '">' + programa.Nombre + '</option>';
+                                    });
+                                    programaDropdown.style.display = 'block';
+                                    periodoDropdown.style.display = 'block';
+                                    programaDropdown.required = true;
+                                } else {
+                                    programaDropdown.style.display = 'none';
+                                    periodoDropdown.style.display = 'none';
+                                    programaDropdown.required = false;
+                                }
+                            });
+                        })
+                        .catch(error => console.error('Error cargando el archivo JSON:', error));
+
+                        // Cargar el archivo JSON de periodos
+                        var jsonUrl = 'https://cloud.cx.javeriana.edu.co/periodo';
+                            fetch('periodos.json')
+                            .then(response => response.json())
+                            .then(periodosData => {
+                                // Evento para cambiar los periodos al seleccionar nivel académico
+                                nivelAcademicoDropdown.addEventListener('change', function() {
+                                    var selectedNivel = this.value;
+                                    periodoDropdown.innerHTML = '<option value="">Periodo esperado de Ingreso</option>';
+
+                                    if (selectedNivel !== "") {
+                                        var periodos = periodosData[selectedNivel];
+                                        Object.keys(periodos).forEach(function(periodoKey) {
+                                            var periodo = periodos[periodoKey];
+                                            periodoDropdown.innerHTML += '<option value="' + periodo + '">' + periodoKey + '</option>';
+                                        });
+                                    } else {
+                                        
+                                    }
+                                });
+                            })
+                            .catch(error => console.error('Error cargando el archivo JSON de periodos:', error));
+                } else {
+                    // Ocultar desplegables
+                    nivelAcademicoRow.style.display = 'none';
+                    nivelAcademicoDropdown.style.display = 'none';
+                    facultadDropdown.style.display = 'none';
+                    programaDropdown.style.display = 'none';
+
+                    // Desactivar obligatoriedad
+                    nivelAcademicoDropdown.required = false;
+                    facultadDropdown.required = false;
+                    programaDropdown.required = false;
+                    periodoDropdown.required = false;
+                }
+            });
+        });
+
+        // UTMS IMPORTANTE
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+    
+        document.addEventListener("DOMContentLoaded", function() {
+            // Obtener los valores de las UTM de la URL
+            var utmSource = getParameterByName('utm_source');
+            var utmSubsource = getParameterByName('utm_subsource');
+            var utmMedium = getParameterByName('utm_medium');
+            var utmCampaign = getParameterByName('utm_campaign');
+    
+            // Asignar valores a los campos
+            document.getElementById('00N7j000002BKgW').value = utmSource || '';
+            document.getElementById('00N7j000002BKgb').value = utmSubsource || '';
+            document.getElementById('00NO40000001izt').value = utmMedium || '';
+            document.getElementById('00N7j000002BfkF').value = utmCampaign || '';
+        });
+
+        // Validación política de tratamiento de datos
+            document.addEventListener("DOMContentLoaded", function() {
+                var autorizacionRadios = document.querySelectorAll('input[name="00N7j000002BI3m"]');
+                var submitButton = document.querySelector('button[type="submit"]');
+                var errorMessage = document.getElementById('autorizacionErrorMessage');
+        
+                // Función para habilitar o deshabilitar el botón según la selección
+                function updateSubmitButton() {
+                    var selectedOption = document.querySelector('input[name="00N7j000002BI3m"]:checked');
+                    if (selectedOption && selectedOption.value === '1') {
+                        submitButton.disabled = false;
+                        errorMessage.style.display = 'none';
+                    }
+                    else if (selectedOption && selectedOption.value === '0') {
+                        errorMessage.style.display = 'block';
+                        submitButton.disabled = true;
+                    } 
+                    else {
+                        submitButton.disabled = true;
+                        errorMessage.style.display = 'none';
+                    }
+                }
+        
+                // Evento para actualizar el botón cuando cambia la selección
+                autorizacionRadios.forEach(function(radio) {
+                    radio.addEventListener('change', updateSubmitButton);
+                });
+        
+                // Validar el estado inicial
+                updateSubmitButton();
+                        
+            });
+    </script>
+<!--http://127.0.0.1:3000/Form.html?utm_source=Comercial&utm_subsource=Invitación&utm_medium=Correo&utm_campaign=Evento_Fin_Conv
+
+
+
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
