@@ -1,7 +1,7 @@
 {
-  "PREG": {
-    "Facultad de Arquitectura y Diseño": {
-      "FacultadCodigo": "Facultad de Arquitectura y Diseño",
+  "PRE": {
+    "Arquitectura y Dise\u00f1o": {
+      "FacultadCodigo": "Arquitectura y Dise\u00f1o",
       "Programas": [
         {
           "Codigo": "ARQUI",
@@ -12,14 +12,18 @@
           "Nombre": "Dise\u00f1o Industrial"
         },
         {
-          "Codigo": "PPCPREARQDI",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "PCPAD",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Artes": {
-      "FacultadCodigo": "Facultad de Artes",
+    "Artes": {
+      "FacultadCodigo": "Artes",
       "Programas": [
+        {
+          "Codigo": "ARESC",
+          "Nombre": "Artes Esc\u00e9nicas"
+        },
         {
           "Codigo": "ARTVI",
           "Nombre": "Artes Visuales"
@@ -29,21 +33,25 @@
           "Nombre": "Estudios Musicales"
         },
         {
-          "Codigo": "ARESC",
-          "Nombre": "Artes Esc\u00e9nicas"
-        },
-        {
-          "Codigo": "PPCPREARTES",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "PCPAR",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Ciencias": {
-      "FacultadCodigo": "Facultad de Ciencias",
+    "Ciencias": {
+      "FacultadCodigo": "Ciencias",
       "Programas": [
+        {
+          "Codigo": "BACTE",
+          "Nombre": "Bacteriolog\u00eda"
+        },
         {
           "Codigo": "BIOLG",
           "Nombre": "Biolog\u00eda"
+        },
+        {
+          "Codigo": "CIDAT",
+          "Nombre": "Ciencia de Datos"
         },
         {
           "Codigo": "MATEM",
@@ -54,34 +62,22 @@
           "Nombre": "Microbiolog\u00eda Industrial"
         },
         {
-          "Codigo": "QUIFA",
-          "Nombre": "Qu\u00edmica Farmac\u00e9utica"
-        },
-        {
-          "Codigo": "CIDAT",
-          "Nombre": "Ciencia de Datos"
-        },
-        {
-          "Codigo": "BACTE",
-          "Nombre": "Bacteriolog\u00eda"
-        },
-        {
           "Codigo": "NUTDT",
           "Nombre": "Nutrici\u00f3n y Diet\u00e9tica"
         },
         {
-          "Codigo": "PPCPRECCIAS",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "QUIFA",
+          "Nombre": "Qu\u00edmica Farmac\u00e9utica"
+        },
+        {
+          "Codigo": "PCPCI",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Ciencias Económicas y Administrativas": {
-      "FacultadCodigo": "Facultad de Ciencias Económicas y Administrativas",
+    "Ciencias Econ\u00f3micas y Administrativas": {
+      "FacultadCodigo": "Ciencias Econ\u00f3micas y Administrativas",
       "Programas": [
-        {
-          "Codigo": "ECONM",
-          "Nombre": "Econom\u00eda"
-        },
         {
           "Codigo": "ADMD",
           "Nombre": "Administraci\u00f3n de Empresas"
@@ -91,181 +87,169 @@
           "Nombre": "Contadur\u00eda P\u00fablica"
         },
         {
+          "Codigo": "ECONM",
+          "Nombre": "Econom\u00eda"
+        },
+        {
           "Codigo": "FINAN",
           "Nombre": "Finanzas"
         },
         {
-          "Codigo": "PPCPRECECON",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "PCPCE",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Ciencias Jurídicas": {
-      "FacultadCodigo": "Facultad de Ciencias Jurídicas",
+    "Ciencias Jur\u00eddicas": {
+      "FacultadCodigo": "Ciencias Jur\u00eddicas",
       "Programas": [
         {
           "Codigo": "DRCHO",
           "Nombre": "Derecho"
         },
         {
-          "Codigo": "PPCPRECJURD",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "PCPCJ",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Ciencias Políticas y Relaciones Internacionales": {
-      "FacultadCodigo": "Facultad de Ciencias Políticas y Relaciones Internacionales",
+    "Ciencias Pol\u00edticas y Relaciones Internacionales": {
+      "FacultadCodigo": "Ciencias Pol\u00edticas y Relaciones Internacionales",
       "Programas": [
-        {
-          "Codigo": "RLINT",
-          "Nombre": "Relaciones Internacionales"
-        },
         {
           "Codigo": "POLIT",
           "Nombre": "Ciencia Pol\u00edtica"
         },
         {
-          "Codigo": "PPCPRECPOLT",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "RLINT",
+          "Nombre": "Relaciones Internacionales"
+        },
+        {
+          "Codigo": "PCPCP",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Ciencias Sociales": {
-      "FacultadCodigo": "Facultad de Ciencias Sociales",
+    "Ciencias Sociales": {
+      "FacultadCodigo": "Ciencias Sociales",
       "Programas": [
         {
-          "Codigo": "SOCIO",
-          "Nombre": "Sociolog\u00eda"
-        },
-        {
-          "Codigo": "HISTO",
-          "Nombre": "Historia"
+          "Codigo": "ANTRO",
+          "Nombre": "Antropolog\u00eda"
         },
         {
           "Codigo": "LITER",
           "Nombre": "Estudios Literarios"
         },
         {
-          "Codigo": "ANTRO",
-          "Nombre": "Antropolog\u00eda"
+          "Codigo": "HISTO",
+          "Nombre": "Historia"
         },
         {
-          "Codigo": "PPCPRECSOCL",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "SOCIO",
+          "Nombre": "Sociolog\u00eda"
+        },
+        {
+          "Codigo": "PCPCS",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Comunicación y Lenguaje": {
-      "FacultadCodigo": "Facultad de Comunicación y Lenguaje",
+    "Comunicaci\u00f3n y Lenguaje": {
+      "FacultadCodigo": "Comunicaci\u00f3n y Lenguaje",
       "Programas": [
         {
           "Codigo": "CIBAR",
-          "Nombre": "Ciencia Infor Bibliot y Archiv"
-        },
-        {
-          "Codigo": "LLMOD",
-          "Nombre": "Licenciatura Lenguas Modernas"
+          "Nombre": "Ciencia de la Informaci\u00f3n, Bibliotecolog\u00eda y Archiv\u00edstica"
         },
         {
           "Codigo": "COMSC",
           "Nombre": "Comunicaci\u00f3n Social"
         },
         {
-          "Codigo": "PPCPRECOMLE",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "LLMOD",
+          "Nombre": "Licenciatura en Lenguas Modernas con \u00e9nfasis en ingl\u00e9s y franc\u00e9s"
+        },
+        {
+          "Codigo": "PCPCL",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Educación": {
-      "FacultadCodigo": "Facultad de Educación",
+    "Educaci\u00f3n": {
+      "FacultadCodigo": "Educaci\u00f3n",
       "Programas": [
         {
-          "Codigo": "LLLCA",
-          "Nombre": "Lic Literatura y Lengua Castel"
+          "Codigo": "LCNEA",
+          "Nombre": "Licenciatura en Ciencias Naturales y Educaci\u00f3n Ambiental"
+        },
+        {
+          "Codigo": "LEDUF",
+          "Nombre": "Licenciatura en Educaci\u00f3n F\u00edsica"
         },
         {
           "Codigo": "INFTL",
-          "Nombre": "Lic en Educaci\u00f3n Infantil"
+          "Nombre": "Licenciatura en Educaci\u00f3n Infantil"
         },
         {
           "Codigo": "LFILE",
           "Nombre": "Licenciatura en Filosof\u00eda"
         },
         {
-          "Codigo": "LEDUF",
-          "Nombre": "Licenciatura Educaci\u00f3n F\u00edsica"
+          "Codigo": "LLLCA",
+          "Nombre": "Licenciatura en Literatura y Lengua Castellana"
         },
         {
-          "Codigo": "LCNEA",
-          "Nombre": "Lic Ciencias Naturales Edu Amb"
-        },
-        {
-          "Codigo": "PPCPREEDUCN",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "PCPED",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Enfermería": {
-      "FacultadCodigo": "Facultad de Enfermería",
+    "Enfermer\u00eda": {
+      "FacultadCodigo": "Enfermer\u00eda",
       "Programas": [
         {
           "Codigo": "ENFER",
           "Nombre": "Enfermer\u00eda"
         },
         {
-          "Codigo": "PPCPREENFER",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "PCPEN",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Estudios Ambientales y Rurales": {
-      "FacultadCodigo": "Facultad de Estudios Ambientales y Rurales",
+    "Estudios Ambientales y Rurales": {
+      "FacultadCodigo": "Estudios Ambientales y Rurales",
       "Programas": [
         {
           "Codigo": "ECOLG",
           "Nombre": "Ecolog\u00eda"
         },
         {
-          "Codigo": "PPCPREFEARS",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "PCPES",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Filosofía": {
-      "FacultadCodigo": "Facultad de Filosofía",
+    "Filosof\u00eda": {
+      "FacultadCodigo": "Filosof\u00eda",
       "Programas": [
         {
           "Codigo": "FILOS",
           "Nombre": "Filosof\u00eda"
         },
         {
-          "Codigo": "PPCPREFILOS",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "PCPFI",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Ingeniería": {
-      "FacultadCodigo": "Facultad de Ingeniería",
+    "Ingenier\u00eda": {
+      "FacultadCodigo": "Ingenier\u00eda",
       "Programas": [
         {
           "Codigo": "BIOIN",
           "Nombre": "Bioingenier\u00eda"
-        },
-        {
-          "Codigo": "IREDT",
-          "Nombre": "Ing Redes y Telecomunicaciones"
-        },
-        {
-          "Codigo": "IMECA",
-          "Nombre": "Ingenier\u00eda Mec\u00e1nica"
-        },
-        {
-          "Codigo": "IMETR",
-          "Nombre": "Ingenier\u00eda Mecatr\u00f3nica"
-        },
-        {
-          "Codigo": "IELEC",
-          "Nombre": "Ingenier\u00eda Electr\u00f3nica"
         },
         {
           "Codigo": "ICIVL",
@@ -276,740 +260,716 @@
           "Nombre": "Ingenier\u00eda de Sistemas"
         },
         {
+          "Codigo": "IELEC",
+          "Nombre": "Ingenier\u00eda Electr\u00f3nica"
+        },
+        {
+          "Codigo": "IREDT",
+          "Nombre": "Ingenier\u00eda en Redes y Telecomunicaciones"
+        },
+        {
           "Codigo": "IINDS",
           "Nombre": "Ingenier\u00eda Industrial"
         },
         {
-          "Codigo": "PPCPREINGEN",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "IMECA",
+          "Nombre": "Ingenier\u00eda Mec\u00e1nica"
+        },
+        {
+          "Codigo": "IMETR",
+          "Nombre": "Ingenier\u00eda Mecatr\u00f3nica"
+        },
+        {
+          "Codigo": "PCPIN",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Medicina": {
-      "FacultadCodigo": "Facultad de Medicina",
+    "Medicina": {
+      "FacultadCodigo": "Medicina",
       "Programas": [
         {
           "Codigo": "MEDIC",
           "Nombre": "Medicina"
         },
         {
-          "Codigo": "PPCPREMEDIC",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "PCPME",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Odontología": {
-      "FacultadCodigo": "Facultad de Odontología",
+    "Odontolog\u00eda": {
+      "FacultadCodigo": "Odontolog\u00eda",
       "Programas": [
         {
           "Codigo": "ODONT",
           "Nombre": "Odontolog\u00eda"
         },
         {
-          "Codigo": "PPCPREODONT",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "PCPOD",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Psicología": {
-      "FacultadCodigo": "Facultad de Psicología",
+    "Psicolog\u00eda": {
+      "FacultadCodigo": "Psicolog\u00eda",
       "Programas": [
         {
           "Codigo": "PSICO",
           "Nombre": "Psicolog\u00eda"
         },
         {
-          "Codigo": "PPCPREPSICL",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "PCPPS",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Teología": {
-      "FacultadCodigo": "Facultad de Teología",
+    "Teolog\u00eda": {
+      "FacultadCodigo": "Teolog\u00eda",
       "Programas": [
-        {
-          "Codigo": "LTEOT",
-          "Nombre": "Licenciatura en Teolog\u00eda Tunja"
-        },
         {
           "Codigo": "LTEOL",
           "Nombre": "Licenciatura en Teolog\u00eda"
-        },
-        {
-          "Codigo": "CRELV",
-          "Nombre": "Lic Ciencias Religiosas"
         },
         {
           "Codigo": "TEOLO",
           "Nombre": "Teolog\u00eda"
         },
         {
-          "Codigo": "PPCPRETEOLG",
-          "Nombre": "No sé qué estudiar"
-        }
-      ]
-    },
-    "Vicerrector\u00eda Acad\u00e9mica": {
-      "FacultadCodigo": "Vicerrector\u00eda Acad\u00e9mica",
-      "Programas": [
-        {
-          "Codigo": "UCOLL",
-          "Nombre": "UCollege Javeriano"
+          "Codigo": "PCPTE",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     }
   },
   "GRAD": {
-    "Facultad de Arquitectura y Diseño": {
-      "FacultadCodigo": "Facultad de Arquitectura y Diseño",
+    "Arquitectura y Dise\u00f1o": {
+      "FacultadCodigo": "Arquitectura y Dise\u00f1o",
       "Programas": [
         {
-          "Codigo": "MPLUR",
-          "Nombre": "Maestr\u00eda Planeaci\u00f3n Urbana y R"
-        },
-        {
           "Codigo": "DGPEX",
-          "Nombre": "Esp. Dise\u00f1o y Gerencia Prod.Ex"
-        },
-        {
-          "Codigo": "MPART",
-          "Nombre": "Maestr\u00eda Paisajes Artificiales"
+          "Nombre": "Especializaci\u00f3n en Dise\u00f1o y Gerencia de Producto para la Exportaci\u00f3n"
         },
         {
           "Codigo": "MDIPS",
-          "Nombre": "Maestr\u00eda Dise\u00f1o para Innovaci\u00f3"
+          "Nombre": "Maestr\u00eda en Dise\u00f1o para la Innovaci\u00f3n de Productos y Servicios"
         },
         {
-          "Codigo": "PPCPOSARQDI",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "MPART",
+          "Nombre": "Maestr\u00eda en Paisajes Artificiales"
+        },
+        {
+          "Codigo": "MPLUR",
+          "Nombre": "Maestr\u00eda en Planeaci\u00f3n Urbana y Regional"
+        },
+        {
+          "Codigo": "PCGAD",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Artes": {
-      "FacultadCodigo": "Facultad de Artes",
+    "Artes": {
+      "FacultadCodigo": "Artes",
       "Programas": [
-        {
-          "Codigo": "MMUSI",
-          "Nombre": "Maestr\u00eda M\u00fasica"
-        },
         {
           "Codigo": "MCAUD",
-          "Nombre": "Maestr\u00eda Creaci\u00f3n Audiovisual"
+          "Nombre": "Maestr\u00eda en Creaci\u00f3n Audiovisual"
         },
         {
-          "Codigo": "PPCPOSARTES",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "MMUSI",
+          "Nombre": "Maestr\u00eda en M\u00fasica"
+        },
+        {
+          "Codigo": "PCGAR",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Ciencias": {
-      "FacultadCodigo": "Facultad de Ciencias",
+    "Ciencias": {
+      "FacultadCodigo": "Ciencias",
       "Programas": [
         {
-          "Codigo": "MACIB",
-          "Nombre": "Maestr\u00eda Ciencias Biol\u00f3gicas"
-        },
-        {
           "Codigo": "DCYTM",
-          "Nombre": "Doctorado Ciencia Tecno Matels"
-        },
-        {
-          "Codigo": "MCILC",
-          "Nombre": "Msc. Ciencias del Laborato Cl\u00ed"
-        },
-        {
-          "Codigo": "MMATE",
-          "Nombre": "Maestr\u00eda Matem\u00e1ticas"
-        },
-        {
-          "Codigo": "MRECO",
-          "Nombre": "Maestr\u00eda Restauraci\u00f3n Ecol\u00f3gic"
-        },
-        {
-          "Codigo": "EAQI",
-          "Nombre": "Esp. An\u00e1lisis Q. Instrumental"
+          "Nombre": "Doctorado en Ciencia y Tecnolog\u00eda de Materiales"
         },
         {
           "Codigo": "DCSB",
-          "Nombre": "Doctorado Ciencias Biol\u00f3gicas"
+          "Nombre": "Doctorado en Ciencias Biol\u00f3gicas"
         },
         {
-          "Codigo": "EMICM",
-          "Nombre": "Esp. Microbiolog\u00eda M\u00e9dica"
+          "Codigo": "EAQI",
+          "Nombre": "Especializaci\u00f3n en An\u00e1lisis Qu\u00edmico Instrumental"
         },
         {
           "Codigo": "EHLBS",
-          "Nombre": "Esp. H.Lab Cl\u00edn. BancoSangre"
+          "Nombre": "Especializaci\u00f3n en Hematolog\u00eda en el Laboratorio Cl\u00ednico y Manejo del Banco de Sangre"
+        },
+        {
+          "Codigo": "EMICM",
+          "Nombre": "Especializaci\u00f3n en Microbiolog\u00eda M\u00e9dica"
+        },
+        {
+          "Codigo": "MACIB",
+          "Nombre": "Maestr\u00eda en Ciencias Biol\u00f3gicas"
+        },
+        {
+          "Codigo": "MCILC",
+          "Nombre": "Maestr\u00eda en Ciencias del Laboratorio Cl\u00ednico"
         },
         {
           "Codigo": "MFIME",
-          "Nombre": "Maestr\u00eda F\u00edsica M\u00e9dica"
+          "Nombre": "Maestr\u00eda en F\u00edsica M\u00e9dica"
         },
         {
-          "Codigo": "PPCPOSCCIAS",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "MMATE",
+          "Nombre": "Maestr\u00eda en Matem\u00e1ticas"
+        },
+        {
+          "Codigo": "MRECO",
+          "Nombre": "Maestr\u00eda en Restauraci\u00f3n Ecol\u00f3gica"
+        },
+        {
+          "Codigo": "PCGCI",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Ciencias Jurídicas": {
-      "FacultadCodigo": "Facultad de Ciencias Jurídicas",
+    "Ciencias Econ\u00f3micas y Administrativas": {
+      "FacultadCodigo": "Ciencias Econ\u00f3micas y Administrativas",
       "Programas": [
-        {
-          "Codigo": "MDSEG",
-          "Nombre": "Maestr\u00eda Derecho de Seguros"
-        },
-        {
-          "Codigo": "EDSOC",
-          "Nombre": "Esp. Derecho de Sociedades"
-        },
-        {
-          "Codigo": "EDSCC",
-          "Nombre": "Esp. Der. SustC Constitucional"
-        },
-        {
-          "Codigo": "ESDAD",
-          "Nombre": "Esp. Derecho Administrativo"
-        },
-        {
-          "Codigo": "EDCLC",
-          "Nombre": "Esp. Derecho de la Competencia"
-        },
-        {
-          "Codigo": "EDFAM",
-          "Nombre": "Esp. Derecho de Familia"
-        },
-        {
-          "Codigo": "EDCOM",
-          "Nombre": "Esp. Derecho Comercial"
-        },
-        {
-          "Codigo": "EDSSJ",
-          "Nombre": "Esp. Derecho Seguridad Social"
-        },
-        {
-          "Codigo": "EDURB",
-          "Nombre": "Esp. Derecho Urban\u00edstico (B)"
-        },
-        {
-          "Codigo": "DDERC",
-          "Nombre": "Doctorado Ciencias Jur\u00eddicas"
-        },
-        {
-          "Codigo": "EDERM",
-          "Nombre": "Esp. Derecho M\u00e9dico"
-        },
-        {
-          "Codigo": "DURBA",
-          "Nombre": "Esp. Derecho Urban\u00edstico"
-        },
-        {
-          "Codigo": "MDER",
-          "Nombre": "Maestr\u00eda Derecho Econ\u00f3mico"
-        },
-        {
-          "Codigo": "EDSEG",
-          "Nombre": "Esp. Derecho de Seguros"
-        },
-        {
-          "Codigo": "EDLAB",
-          "Nombre": "Esp. Derecho Laboral"
-        },
-        {
-          "Codigo": "EDCCC",
-          "Nombre": "Esp. Derecho de la Competen(C)"
-        },
-        {
-          "Codigo": "MDADM",
-          "Nombre": "Maestr\u00eda Derecho Administrativ"
-        },
-        {
-          "Codigo": "DTRIB",
-          "Nombre": "Esp. Derecho Tributario"
-        },
-        {
-          "Codigo": "EDSEM",
-          "Nombre": "Esp. Derecho de Seguros"
-        },
-        {
-          "Codigo": "MDLSS",
-          "Nombre": "Maestr\u00eda Derecho Laboral y SS"
-        },
-        {
-          "Codigo": "MDCON",
-          "Nombre": "Maestr\u00eda Derecho Constituciona"
-        },
-        {
-          "Codigo": "MECAP",
-          "Nombre": "Esp. Der Financiero Mercado Va"
-        },
-        {
-          "Codigo": "PPCPOSCJURD",
-          "Nombre": "No sé qué estudiar"
-        }
-      ]
-    },
-    "Facultad de Ciencias Sociales": {
-      "FacultadCodigo": "Facultad de Ciencias Sociales",
-      "Programas": [
-        {
-          "Codigo": "MALIT",
-          "Nombre": "Maestr\u00eda Literatura"
-        },
-        {
-          "Codigo": "MESTC",
-          "Nombre": "Maestr\u00eda Estudios Culturales"
-        },
-        {
-          "Codigo": "DCSHU",
-          "Nombre": "Doctorado Ciencias Sociales Hu"
-        },
-        {
-          "Codigo": "ELITI",
-          "Nombre": "Esp. Liter Infantil y Juvenil"
-        },
-        {
-          "Codigo": "MEAFR",
-          "Nombre": "Maestr\u00eda Estudios Afrocolom(C)"
-        },
-        {
-          "Codigo": "MESCL",
-          "Nombre": "Maestr\u00eda Estudios Cultur Lat V"
-        },
-        {
-          "Codigo": "MEAFB",
-          "Nombre": "Maestr\u00eda Estudios Afrocolom(B)"
-        },
-        {
-          "Codigo": "MAHIS",
-          "Nombre": "Maestr\u00eda Historia"
-        },
-        {
-          "Codigo": "PPCPOSCSOCL",
-          "Nombre": "No sé qué estudiar"
-        }
-      ]
-    },
-    "Facultad de Comunicación y Lenguaje": {
-      "FacultadCodigo": "Facultad de Comunicación y Lenguaje",
-      "Programas": [
-        {
-          "Codigo": "ESCOR",
-          "Nombre": "Esp. Comunicaci\u00f3n Organiz"
-        },
-        {
-          "Codigo": "MAHIC",
-          "Nombre": "Maestr\u00eda Archiv\u00edstica Hist\u00f3(C)"
-        },
-        {
-          "Codigo": "MAHIM",
-          "Nombre": "Maestr\u00eda Archiv\u00edstica Hist\u00f3ric"
-        },
-        {
-          "Codigo": "DCLIN",
-          "Nombre": "Doctorado Comunicaci\u00f3n Len Inf"
-        },
-        {
-          "Codigo": "MPERC",
-          "Nombre": "Maestr\u00eda Periodismo Cient\u00edfico"
-        },
-        {
-          "Codigo": "MLING",
-          "Nombre": "Maestr\u00eda Ling\u00fc\u00edstica Aplic ELE"
-        },
-        {
-          "Codigo": "MACOM",
-          "Nombre": "Maestr\u00eda Comunicaci\u00f3n Tecnol S"
-        },
-        {
-          "Codigo": "ESTEL",
-          "Nombre": "Esp. Televisi\u00f3n Expandida Tran"
-        },
-        {
-          "Codigo": "PPCPOSCOMLE",
-          "Nombre": "No sé qué estudiar"
-        }
-      ]
-    },
-    "Facultad de Ciencias Económicas y Administrativas": {
-      "FacultadCodigo": "Facultad de Ciencias Económicas y Administrativas",
-      "Programas": [
-        {
-          "Codigo": "EGCSS",
-          "Nombre": "Esp. Ger.Calidad de Serv.Salud"
-        },
-        {
-          "Codigo": "COFIN",
-          "Nombre": "Esp. Contabilidad Financ Inter"
-        },
-        {
-          "Codigo": "EGTH",
-          "Nombre": "Esp. Gerencia Talento Humano"
-        },
-        {
-          "Codigo": "MECON",
-          "Nombre": "Maestr\u00eda Econom\u00eda"
-        },
-        {
-          "Codigo": "SGFIN",
-          "Nombre": "Esp. Gerencia Financiera"
-        },
-        {
-          "Codigo": "ESGIN",
-          "Nombre": "Esp. Gerencia Internacional"
-        },
-        {
-          "Codigo": "MADMI",
-          "Nombre": "Maestr\u00eda Administraci\u00f3n"
-        },
-        {
-          "Codigo": "COFIB",
-          "Nombre": "Esp. Contabilidad Financ Inter"
-        },
-        {
-          "Codigo": "MGRSS",
-          "Nombre": "Maestr\u00eda Gerencia Sostenibilid"
-        },
-        {
-          "Codigo": "MADME",
-          "Nombre": "Maestr\u00eda Administraci\u00f3n (E)"
-        },
         {
           "Codigo": "DECON",
-          "Nombre": "Doctorado Econom\u00eda"
-        },
-        {
-          "Codigo": "MESAL",
-          "Nombre": "Maestr\u00eda Econom\u00eda de la Salud"
-        },
-        {
-          "Codigo": "COFIP",
-          "Nombre": "Esp. Contabilidad Financ Inter"
-        },
-        {
-          "Codigo": "ECNOE",
-          "Nombre": "Esp. Econom\u00eda xa no Economista"
-        },
-        {
-          "Codigo": "MADSA",
-          "Nombre": "Maestr\u00eda Administraci\u00f3n Salud"
-        },
-        {
-          "Codigo": "EGTEC",
-          "Nombre": "Esp. Gerencia Estrat\u00e9gica Inno"
-        },
-        {
-          "Codigo": "MBFIN",
-          "Nombre": "Maestr\u00eda Banca y Finanzas"
-        },
-        {
-          "Codigo": "ASEGB",
-          "Nombre": "Esp. Aseguramiento Cont Int(B)"
-        },
-        {
-          "Codigo": "COFBU",
-          "Nombre": "Esp. Contabilidad Financ Inter"
-        },
-        {
-          "Codigo": "MEINC",
-          "Nombre": "Maestr\u00eda Estrategia Innova Com"
+          "Nombre": "Doctorado en Econom\u00eda"
         },
         {
           "Codigo": "EASSS",
-          "Nombre": "Esp. Administraci\u00f3n de Salud"
+          "Nombre": "Especializaci\u00f3n en Administraci\u00f3n de Salud"
         },
         {
           "Codigo": "ASEGC",
-          "Nombre": "Esp. Aseguramiento Control Int"
+          "Nombre": "Especializaci\u00f3n en Aseguramiento y Control Interno (Bogot\u00e1)"
         },
         {
-          "Codigo": "EGHOS",
-          "Nombre": "Esp. Gerencia Hospitalaria"
+          "Codigo": "ASEGB",
+          "Nombre": "Especializaci\u00f3n en Aseguramiento y Control Interno (Bucaramanga)"
+        },
+        {
+          "Codigo": "COFIB",
+          "Nombre": "Especializaci\u00f3n en Contabilidad Financiera Internacional (Barranquilla)"
+        },
+        {
+          "Codigo": "COFIN",
+          "Nombre": "Especializaci\u00f3n en Contabilidad Financiera Internacional (Bogot\u00e1)"
+        },
+        {
+          "Codigo": "COFBU",
+          "Nombre": "Especializaci\u00f3n en Contabilidad Financiera Internacional (Bucaramanga)"
         },
         {
           "Codigo": "ECGER",
-          "Nombre": "Esp. Contabilidad Gerencial"
+          "Nombre": "Especializaci\u00f3n en Contabilidad Gerencial"
         },
         {
-          "Codigo": "REFIS",
-          "Nombre": "Esp. Revisor\u00eda Fiscal"
+          "Codigo": "ECNOE",
+          "Nombre": "Especializaci\u00f3n en Econom\u00eda para no Economistas"
+        },
+        {
+          "Codigo": "EGCSS",
+          "Nombre": "Especializaci\u00f3n en Gerencia de la Calidad de los Servicios de Salud"
+        },
+        {
+          "Codigo": "EGTH",
+          "Nombre": "Especializaci\u00f3n en Gerencia del Talento Humano"
+        },
+        {
+          "Codigo": "EGTEC",
+          "Nombre": "Especializaci\u00f3n en Gerencia Estrat\u00e9gica de la Innovaci\u00f3n"
+        },
+        {
+          "Codigo": "SGFIN",
+          "Nombre": "Especializaci\u00f3n en Gerencia Financiera"
+        },
+        {
+          "Codigo": "EGHOS",
+          "Nombre": "Especializaci\u00f3n en Gerencia Hospitalaria"
+        },
+        {
+          "Codigo": "ESGIN",
+          "Nombre": "Especializaci\u00f3n en Gerencia Internacional"
         },
         {
           "Codigo": "EGMER",
-          "Nombre": "Esp. Marketing Estrat\u00e9gico"
+          "Nombre": "Especializaci\u00f3n en Marketing Estrat\u00e9gico"
         },
         {
-          "Codigo": "PPCPOSCECON",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "REFIS",
+          "Nombre": "Especializaci\u00f3n en Revisor\u00eda Fiscal"
+        },
+        {
+          "Codigo": "MADMI",
+          "Nombre": "Maestr\u00eda en Administraci\u00f3n - MBA Profesional"
+        },
+        {
+          "Codigo": "MADME",
+          "Nombre": "Maestr\u00eda en Administraci\u00f3n - Modalidad Ejecutiva EMBA"
+        },
+        {
+          "Codigo": "MADSA",
+          "Nombre": "Maestr\u00eda en Administraci\u00f3n de Salud"
+        },
+        {
+          "Codigo": "MBFIN",
+          "Nombre": "Maestr\u00eda en Banca y Finanzas"
+        },
+        {
+          "Codigo": "MECON",
+          "Nombre": "Maestr\u00eda en Econom\u00eda"
+        },
+        {
+          "Codigo": "MESAL",
+          "Nombre": "Maestr\u00eda en Econom\u00eda de la Salud"
+        },
+        {
+          "Codigo": "MEINC",
+          "Nombre": "Maestr\u00eda en Estrategia, Innovaci\u00f3n y Competitividad"
+        },
+        {
+          "Codigo": "MGRSS",
+          "Nombre": "Maestr\u00eda en Gerencia de la Sostenibilidad"
+        },
+        {
+          "Codigo": "PCGCE",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Ciencias Políticas y Relaciones Internacionales": {
-      "FacultadCodigo": "Facultad de Ciencias Políticas y Relaciones Internacionales",
+    "Ciencias Jur\u00eddicas": {
+      "FacultadCodigo": "Ciencias Jur\u00eddicas",
       "Programas": [
         {
-          "Codigo": "MGTGP",
-          "Nombre": "Maestr\u00eda Gob del Terr y Ges P\u00fa"
+          "Codigo": "DDERC",
+          "Nombre": "Doctorado en Ciencias Jur\u00eddicas"
+        },
+        {
+          "Codigo": "ESDAD",
+          "Nombre": "Especializaci\u00f3n en Derecho Administrativo"
+        },
+        {
+          "Codigo": "EDCOM",
+          "Nombre": "Especializaci\u00f3n en Derecho Comercial"
+        },
+        {
+          "Codigo": "EDFAM",
+          "Nombre": "Especializaci\u00f3n en Derecho de Familia"
+        },
+        {
+          "Codigo": "EDCLC",
+          "Nombre": "Especializaci\u00f3n en Derecho de la Competencia (Bogot\u00e1)"
+        },
+        {
+          "Codigo": "EDCCC",
+          "Nombre": "Especializaci\u00f3n en Derecho de la Competencia (Cali)"
+        },
+        {
+          "Codigo": "EDSSJ",
+          "Nombre": "Especializaci\u00f3n en Derecho de la Seguridad Social"
+        },
+        {
+          "Codigo": "EDSEG",
+          "Nombre": "Especializaci\u00f3n en Derecho de Seguros (Bogot\u00e1)"
+        },
+        {
+          "Codigo": "EDSEM",
+          "Nombre": "Especializaci\u00f3n en Derecho de Seguros (Medell\u00edn)"
+        },
+        {
+          "Codigo": "EDSOC",
+          "Nombre": "Especializaci\u00f3n en Derecho de Sociedades"
+        },
+        {
+          "Codigo": "MECAP",
+          "Nombre": "Especializaci\u00f3n en Derecho Financiero y Mercado de Valores"
+        },
+        {
+          "Codigo": "EDLAB",
+          "Nombre": "Especializaci\u00f3n en Derecho Laboral"
+        },
+        {
+          "Codigo": "EDSCC",
+          "Nombre": "Especializaci\u00f3n en Derecho Sustantivo y Contencioso Constitucional"
+        },
+        {
+          "Codigo": "DTRIB",
+          "Nombre": "Especializaci\u00f3n en Derecho Tributario"
+        },
+        {
+          "Codigo": "DURBA",
+          "Nombre": "Especializaci\u00f3n en Derecho Urban\u00edstico (Bogot\u00e1)"
+        },
+        {
+          "Codigo": "EDURB",
+          "Nombre": "Especializaci\u00f3n en Derecho Urban\u00edstico (Bucaramanga)"
+        },
+        {
+          "Codigo": "MDADM",
+          "Nombre": "Maestr\u00eda en Derecho Administrativo"
+        },
+        {
+          "Codigo": "MDCON",
+          "Nombre": "Maestr\u00eda en Derecho Constitucional"
+        },
+        {
+          "Codigo": "MDSEG",
+          "Nombre": "Maestr\u00eda en Derecho de Seguros"
+        },
+        {
+          "Codigo": "MDER",
+          "Nombre": "Maestr\u00eda en Derecho Econ\u00f3mico"
+        },
+        {
+          "Codigo": "MDLSS",
+          "Nombre": "Maestr\u00eda en Derecho Laboral y de la Seguridad Social"
+        },
+        {
+          "Codigo": "PCGCJ",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
+        }
+      ]
+    },
+    "Ciencias Pol\u00edticas y Relaciones Internacionales": {
+      "FacultadCodigo": "Ciencias Pol\u00edticas y Relaciones Internacionales",
+      "Programas": [
+        {
+          "Codigo": "GGPTB",
+          "Nombre": "Especializaci\u00f3n en Gobierno y Gesti\u00f3n P\u00fablica Territoriales (Barranquilla)"
         },
         {
           "Codigo": "GGPT",
-          "Nombre": "Esp. Gobierno y Gesti\u00f3n P\u00fabl.T"
-        },
-        {
-          "Codigo": "RCON",
-          "Nombre": "Esp. Resoluci\u00f3n de Conflictos"
-        },
-        {
-          "Codigo": "MELAT",
-          "Nombre": "Maestr\u00eda Estudios Cont AmeLati"
-        },
-        {
-          "Codigo": "MREL",
-          "Nombre": "Maestr\u00eda Estud Internacionales"
-        },
-        {
-          "Codigo": "MESTP",
-          "Nombre": "Maestr\u00eda Estudios Pol\u00edticos"
-        },
-        {
-          "Codigo": "GGPTB",
-          "Nombre": "Esp. Gobierno y Gesti\u00f3n P\u00fabl.T"
+          "Nombre": "Especializaci\u00f3n en Gobierno y Gesti\u00f3n P\u00fablica Territoriales (Bogot\u00e1)"
         },
         {
           "Codigo": "EOPMP",
-          "Nombre": "Esp. Opini\u00f3n P\u00fablica Mer Pol\u00edt"
+          "Nombre": "Especializaci\u00f3n en Opini\u00f3n P\u00fablica y Mercadeo Pol\u00edtico"
         },
         {
-          "Codigo": "MPSOC",
-          "Nombre": "Maestr\u00eda Pol\u00edtica Social"
+          "Codigo": "RCON",
+          "Nombre": "Especializaci\u00f3n en Resoluci\u00f3n de Conflictos"
         },
         {
           "Codigo": "MEPRC",
-          "Nombre": "Maestr\u00eda Estudios d Paz ResCon"
+          "Nombre": "Maestr\u00eda en Estudios de Paz y Resoluci\u00f3n de Conflictos"
         },
         {
-          "Codigo": "PPCPOSCPOLT",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "MREL",
+          "Nombre": "Maestr\u00eda en Estudios Internacionales"
+        },
+        {
+          "Codigo": "MGTGP",
+          "Nombre": "Maestr\u00eda en Gobierno del Territorio y Gesti\u00f3n P\u00fablica"
+        },
+        {
+          "Codigo": "MPSOC",
+          "Nombre": "Maestr\u00eda en Pol\u00edtica Social"
+        },
+        {
+          "Codigo": "PCGCP",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Derecho Canónico": {
-      "FacultadCodigo": "Facultad de Derecho Canónico",
+    "Ciencias Sociales": {
+      "FacultadCodigo": "Ciencias Sociales",
+      "Programas": [
+        {
+          "Codigo": "DCSHU",
+          "Nombre": "Doctorado en Ciencias Sociales y Humanas"
+        },
+        {
+          "Codigo": "ELITI",
+          "Nombre": "Especializaci\u00f3n en Literatura Infantil y Juvenil"
+        },
+        {
+          "Codigo": "MEAFB",
+          "Nombre": "Maestr\u00eda en Estudios Afrocolombianos (Bogot\u00e1)"
+        },
+        {
+          "Codigo": "MESTC",
+          "Nombre": "Maestr\u00eda en Estudios Culturales"
+        },
+        {
+          "Codigo": "MESCL",
+          "Nombre": "Maestr\u00eda en Estudios Culturales Latinoamericanos - Virtual"
+        },
+        {
+          "Codigo": "MAHIS",
+          "Nombre": "Maestr\u00eda en Historia"
+        },
+        {
+          "Codigo": "MALIT",
+          "Nombre": "Maestr\u00eda en Literatura"
+        },
+        {
+          "Codigo": "PCGCS",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
+        }
+      ]
+    },
+    "Comunicaci\u00f3n y Lenguaje": {
+      "FacultadCodigo": "Comunicaci\u00f3n y Lenguaje",
+      "Programas": [
+        {
+          "Codigo": "DCLIN",
+          "Nombre": "Doctorado en Comunicaci\u00f3n, Lenguajes e Informaci\u00f3n"
+        },
+        {
+          "Codigo": "ESCOR",
+          "Nombre": "Especializaci\u00f3n en Comunicaci\u00f3n Organizacional"
+        },
+        {
+          "Codigo": "ESTEL",
+          "Nombre": "Especializaci\u00f3n en Televisi\u00f3n Expandida y Transmedia"
+        },
+        {
+          "Codigo": "MAHIM",
+          "Nombre": "Maestr\u00eda en Archiv\u00edstica Hist\u00f3rica y Memoria"
+        },
+        {
+          "Codigo": "MACOM",
+          "Nombre": "Maestr\u00eda en Comunicaci\u00f3n, Tecnolog\u00eda y Sociedad"
+        },
+        {
+          "Codigo": "MLING",
+          "Nombre": "Maestr\u00eda en Ling\u00fc\u00edstica Aplicada del Espa\u00f1ol como Lengua Extranjera"
+        },
+        {
+          "Codigo": "MLINV",
+          "Nombre": "Maestr\u00eda en Ling\u00fc\u00edstica Aplicada del Espa\u00f1ol como Lengua Extranjera - Virtual"
+        },
+        {
+          "Codigo": "MPERC",
+          "Nombre": "Maestr\u00eda en Periodismo Cient\u00edfico"
+        },
+        {
+          "Codigo": "PCGCL",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
+        }
+      ]
+    },
+    "Derecho Can\u00f3nico": {
+      "FacultadCodigo": "Derecho Can\u00f3nico",
       "Programas": [
         {
           "Codigo": "EDMCV",
-          "Nombre": "Esp. Derecho Matrimonial Can\u00f3n"
+          "Nombre": "Especializaci\u00f3n en Derecho Matrimonial Can\u00f3nico - Virtual"
         },
         {
           "Codigo": "MDERC",
-          "Nombre": "Maestr\u00eda Derecho Can\u00f3nico"
+          "Nombre": "Maestr\u00eda en Derecho Can\u00f3nico"
         },
         {
-          "Codigo": "PPCPOSCANON",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "PCGDC",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Educación": {
-      "FacultadCodigo": "Facultad de Educación",
+    "Educaci\u00f3n": {
+      "FacultadCodigo": "Educaci\u00f3n",
       "Programas": [
         {
-          "Codigo": "MSAME",
-          "Nombre": "Maestr\u00eda Salud Mental Escolar"
-        },
-        {
           "Codigo": "ELIGS",
-          "Nombre": "Esp. Liderazgo xa Gesti\u00f3n Soci"
-        },
-        {
-          "Codigo": "MEICI",
-          "Nombre": "Maestr\u00eda Educaci\u00f3n Innova Ciud"
+          "Nombre": "Especializaci\u00f3n en Liderazgo para la Gesti\u00f3n Social - Virtual"
         },
         {
           "Codigo": "MEDUC",
-          "Nombre": "Maestr\u00eda Educaci\u00f3n"
-        },{
-          "Codigo": "PPCPOSEDUCN",
-          "Nombre": "No sé qué estudiar"
+          "Nombre": "Maestr\u00eda en Educaci\u00f3n"
+        },
+        {
+          "Codigo": "MEICI",
+          "Nombre": "Maestr\u00eda en Educaci\u00f3n para la Innovaci\u00f3n y las Ciudadan\u00edas - Virtual"
+        },
+        {
+          "Codigo": "MSAME",
+          "Nombre": "Maestr\u00eda en Salud Mental Escolar"
+        },
+        {
+          "Codigo": "PCGED",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Enfermería": {
-      "FacultadCodigo": "Facultad de Enfermería",
+    "Enfermer\u00eda": {
+      "FacultadCodigo": "Enfermer\u00eda",
       "Programas": [
         {
-          "Codigo": "MENFO",
-          "Nombre": "Maestr\u00eda Enfermer\u00eda Oncol\u00f3gica"
-        },
-        {
-          "Codigo": "MECPA",
-          "Nombre": "Maestr\u00eda Enfermer\u00eda Cuidado Pa"
-        },
-        {
-          "Codigo": "MECC",
-          "Nombre": "Maestr\u00eda Enfermer\u00eda Cuidd Cr\u00edt"
-        },
-        {
-          "Codigo": "MSEST",
-          "Nombre": "Maestr\u00eda Seguridad Salud Traba"
-        },
-        {
-          "Codigo": "MCEAM",
-          "Nombre": "Maestr\u00eda Cuidado Enfer Adu May"
+          "Codigo": "EECC",
+          "Nombre": "Especializaci\u00f3n en Enfermer\u00eda en Cuidado Cr\u00edtico"
         },
         {
           "Codigo": "EEPED",
-          "Nombre": "Esp. Enfermer\u00eda Pedi\u00e1trica"
+          "Nombre": "Especializaci\u00f3n en Enfermer\u00eda Pedi\u00e1trica"
         },
         {
           "Codigo": "SALOC",
-          "Nombre": "Esp. Seguridad y Salud en el T"
+          "Nombre": "Especializaci\u00f3n en Seguridad y Salud en el Trabajo"
         },
         {
-          "Codigo": "EECC",
-          "Nombre": "Esp. Enfermer Cuidado Cr\u00edtico"
+          "Codigo": "MECPA",
+          "Nombre": "Maestr\u00eda en Enfermer\u00eda en Cuidado Paliativo"
         },
         {
-          "Codigo": "PPCPOSENFER",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "MECC",
+          "Nombre": "Maestr\u00eda en Enfermer\u00eda en el Cuidado Cr\u00edtico"
+        },
+        {
+          "Codigo": "MENFO",
+          "Nombre": "Maestr\u00eda en Enfermer\u00eda Oncol\u00f3gica"
+        },
+        {
+          "Codigo": "MSEST",
+          "Nombre": "Maestr\u00eda en Seguridad y Salud en el Trabajo"
+        },
+        {
+          "Codigo": "PCGEN",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Estudios Ambientales y Rurales": {
-      "FacultadCodigo": "Facultad de Estudios Ambientales y Rurales",
+    "Estudios Ambientales y Rurales": {
+      "FacultadCodigo": "Estudios Ambientales y Rurales",
       "Programas": [
         {
           "Codigo": "DEAMB",
-          "Nombre": "Doctorado Estudios Ambientales"
+          "Nombre": "Doctorado en Estudios Ambientales y Rurales"
         },
         {
           "Codigo": "EGEEV",
-          "Nombre": "Esp. Gesti\u00f3n de Emp Econ SocSo"
+          "Nombre": "Especializaci\u00f3n en Gesti\u00f3n de Empresas de la Econom\u00eda Social y Solidaria - Virtual"
         },
         {
           "Codigo": "MCUBI",
-          "Nombre": "Maestr\u00eda Conservaci\u00f3n Uso Biod"
+          "Nombre": "Maestr\u00eda en Conservaci\u00f3n y Uso de Biodiversidad"
         },
         {
           "Codigo": "MDRUR",
-          "Nombre": "Maestr\u00eda Desarrollo Rural"
+          "Nombre": "Maestr\u00eda en Desarrollo Rural"
         },
         {
           "Codigo": "MGEAM",
-          "Nombre": "Maestr\u00eda Gesti\u00f3n Ambiental DS"
+          "Nombre": "Maestr\u00eda en Gesti\u00f3n Ambiental"
         },
         {
-          "Codigo": "PPCPOSFEARS",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "PCGES",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Filosofía": {
-      "FacultadCodigo": "Facultad de Filosofía",
+    "Filosof\u00eda": {
+      "FacultadCodigo": "Filosof\u00eda",
       "Programas": [
         {
-          "Codigo": "MBIOE",
-          "Nombre": "Maestr\u00eda Bio\u00e9tica"
+          "Codigo": "DFILS",
+          "Nombre": "Doctorado en Filosof\u00eda"
         },
         {
-          "Codigo": "DFILS",
-          "Nombre": "Doctorado Filosof\u00eda"
+          "Codigo": "MBIOE",
+          "Nombre": "Maestr\u00eda en Bio\u00e9tica"
         },
         {
           "Codigo": "MAFIL",
-          "Nombre": "Maestr\u00eda Filosof\u00eda"
+          "Nombre": "Maestr\u00eda en Filosof\u00eda"
         },
         {
-          "Codigo": "PPCPOSFILOS",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "PCGFI",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Ingeniería": {
-      "FacultadCodigo": "Facultad de Ingeniería",
+    "Ingenier\u00eda": {
+      "FacultadCodigo": "Ingenier\u00eda",
       "Programas": [
         {
-          "Codigo": "MAINN",
-          "Nombre": "Maestr\u00eda Anal\u00edtica Intelig Neg"
-        },
-        {
-          "Codigo": "MBIOI",
-          "Nombre": "Maestr\u00eda Bioingenier\u00eda"
-        },
-        {
-          "Codigo": "EGPTI",
-          "Nombre": "Esp. Gerencia de Proyectos TI"
-        },
-        {
-          "Codigo": "MLTRA",
-          "Nombre": "Maestr\u00eda Log\u00edstica y Transport"
-        },
-        {
-          "Codigo": "MENES",
-          "Nombre": "Maestr\u00eda Energ\u00eda y Sostenibili"
-        },
-        {
-          "Codigo": "MSEGD",
-          "Nombre": "Maestr\u00eda Seguridad Digital"
-        },
-        {
-          "Codigo": "MINTA",
-          "Nombre": "Maestr\u00eda Inteligencia Artifici"
-        },
-        {
-          "Codigo": "MIICO",
-          "Nombre": "Maestr\u00eda Ing. Internet d Cosas"
-        },
-        {
-          "Codigo": "MINEL",
-          "Nombre": "Maestr\u00eda Ing. Electr\u00f3nica"
+          "Codigo": "DING",
+          "Nombre": "Doctorado en Ingenier\u00eda"
         },
         {
           "Codigo": "AESOF",
-          "Nombre": "Esp. Arq.Empresarial Software"
-        },
-        {
-          "Codigo": "MHIDR",
-          "Nombre": "Maestr\u00eda Hidrosistemas"
-        },
-        {
-          "Codigo": "DING",
-          "Nombre": "Doctorado Ingenier\u00eda"
-        },
-        {
-          "Codigo": "MINGC",
-          "Nombre": "Maestr\u00eda Ing. Civil"
-        },
-        {
-          "Codigo": "SGING",
-          "Nombre": "Esp. S. Gerenciales Ingenier\u00eda"
-        },
-        {
-          "Codigo": "MINSC",
-          "Nombre": "Maestr\u00eda Ing. Sistemas Computa"
-        },
-        {
-          "Codigo": "GCONT",
-          "Nombre": "Esp. Gerencia de Construccione"
-        },
-        {
-          "Codigo": "MININ",
-          "Nombre": "Maestr\u00eda Ing. Industrial"
+          "Nombre": "Especializaci\u00f3n en Arquitectura Empresarial de Software"
         },
         {
           "Codigo": "GVPAV",
-          "Nombre": "Esp. Geotecnia Vial y Paviment"
+          "Nombre": "Especializaci\u00f3n en Geotecnia Vial y Pavimentos"
         },
         {
-          "Codigo": "TCONS",
-          "Nombre": "Esp. Tecn Constr Edificaciones"
+          "Codigo": "GCONT",
+          "Nombre": "Especializaci\u00f3n en Gerencia de Construcciones"
+        },
+        {
+          "Codigo": "EGPTI",
+          "Nombre": "Especializaci\u00f3n en Gerencia de Proyectos de Tecnolog\u00edas de la Informaci\u00f3n"
         },
         {
           "Codigo": "EIOMS",
-          "Nombre": "Esp. Ing.Operaciones Manuf.Ser"
+          "Nombre": "Especializaci\u00f3n en Ingenier\u00eda de Operaciones en Manufactura y Servicios"
         },
         {
-          "Codigo": "PPCPOSINGEN",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "SGING",
+          "Nombre": "Especializaci\u00f3n en Sistemas Gerenciales de Ingenier\u00eda"
+        },
+        {
+          "Codigo": "TCONS",
+          "Nombre": "Especializaci\u00f3n en Tecnolog\u00eda de la Construcci\u00f3n en Edificaciones"
+        },
+        {
+          "Codigo": "MAINN",
+          "Nombre": "Maestr\u00eda en Anal\u00edtica para la Inteligencia de Negocios"
+        },
+        {
+          "Codigo": "MBIOI",
+          "Nombre": "Maestr\u00eda en Bioingenier\u00eda"
+        },
+        {
+          "Codigo": "MENES",
+          "Nombre": "Maestr\u00eda en Energ\u00eda y Sostenibilidad"
+        },
+        {
+          "Codigo": "MHIDR",
+          "Nombre": "Maestr\u00eda en Hidrosistemas"
+        },
+        {
+          "Codigo": "MINGC",
+          "Nombre": "Maestr\u00eda en Ingenier\u00eda Civil"
+        },
+        {
+          "Codigo": "MINSC",
+          "Nombre": "Maestr\u00eda en Ingenier\u00eda de Sistemas y Computaci\u00f3n"
+        },
+        {
+          "Codigo": "MIICO",
+          "Nombre": "Maestr\u00eda en Ingenier\u00eda del Internet de las Cosas"
+        },
+        {
+          "Codigo": "MINEL",
+          "Nombre": "Maestr\u00eda en Ingenier\u00eda Electr\u00f3nica"
+        },
+        {
+          "Codigo": "MININ",
+          "Nombre": "Maestr\u00eda en Ingenier\u00eda Industrial"
+        },
+        {
+          "Codigo": "MINTA",
+          "Nombre": "Maestr\u00eda en Inteligencia Artificial"
+        },
+        {
+          "Codigo": "MLTRA",
+          "Nombre": "Maestr\u00eda en Log\u00edstica y Transporte"
+        },
+        {
+          "Codigo": "MSEGD",
+          "Nombre": "Maestr\u00eda en Seguridad Digital"
+        },
+        {
+          "Codigo": "PCGIN",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
@@ -1018,11 +978,11 @@
       "Programas": [
         {
           "Codigo": "MSAPU",
-          "Nombre": "Maestr\u00eda Salud P\u00fablica"
+          "Nombre": "Maestr\u00eda en Salud P\u00fablica"
         },
         {
-          "Codigo": "PPCPOSSALPU",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "PCGIS",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
@@ -1031,311 +991,295 @@
       "Programas": [
         {
           "Codigo": "MECMV",
-          "Nombre": "Maestr\u00eda Estudios Cr\u00edti MigraC"
+          "Nombre": "Maestr\u00eda en Estudios Cr\u00edticos de las Migraciones Contempor\u00e1neas - Virtual"
         },
         {
-          "Codigo": "PPCPOSPENSA",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "PCGIP",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Medicina": {
-      "FacultadCodigo": "Facultad de Medicina",
+    "Medicina": {
+      "FacultadCodigo": "Medicina",
       "Programas": [
         {
-          "Codigo": "MBEST",
-          "Nombre": "Maestr\u00eda Bioestad\u00edstica"
-        },
-        {
-          "Codigo": "ESGM",
-          "Nombre": "Esp. Gen\u00e9tica M\u00e9dica"
-        },
-        {
-          "Codigo": "MEPCC",
-          "Nombre": "Maestr\u00eda Epidemiolog\u00eda Cl\u00edn. C"
-        },
-        {
-          "Codigo": "ENEON",
-          "Nombre": "Esp. Neonatolog\u00eda"
-        },
-        {
-          "Codigo": "ECIMA",
-          "Nombre": "Esp. Cirug\u00eda de Mano"
+          "Codigo": "DECLI",
+          "Nombre": "Doctorado en Epidemiolog\u00eda Cl\u00ednica"
         },
         {
           "Codigo": "DNEUC",
-          "Nombre": "Doctorado Neurociencias"
-        },
-        {
-          "Codigo": "EEPPS",
-          "Nombre": "Esp. Educaci\u00f3n Profesional Sal"
-        },
-        {
-          "Codigo": "MEPPS",
-          "Nombre": "Maestr\u00eda En Educaci\u00f3n Para Profesionales De La Salud"
-        },
-        {
-          "Codigo": "EINFE",
-          "Nombre": "Esp. Infectolog\u00eda"
-        },
-        {
-          "Codigo": "EREUM",
-          "Nombre": "Esp. Reumatolog\u00eda"
-        },
-        {
-          "Codigo": "OFTAL",
-          "Nombre": "Esp. Oftalmolog\u00eda"
-        },
-        {
-          "Codigo": "ESCPL",
-          "Nombre": "Esp. Cirug\u00eda Pl\u00e1stica Reconstr"
-        },
-        {
-          "Codigo": "ESPAT",
-          "Nombre": "Esp. Patolog\u00eda"
-        },
-        {
-          "Codigo": "EDCP",
-          "Nombre": "Esp. Medicina Dolor Paliativos"
-        },
-        {
-          "Codigo": "SPNAD",
-          "Nombre": "Esp. Psiquiatr\u00eda Ni\u00f1 y Adolesc"
-        },
-        {
-          "Codigo": "ESPCG",
-          "Nombre": "Esp. Cirug\u00eda General"
-        },
-        {
-          "Codigo": "OTRLG",
-          "Nombre": "Esp. Otorrinolaringolog\u00eda"
-        },
-        {
-          "Codigo": "EMEDF",
-          "Nombre": "Esp. Medicina Familiar"
-        },
-        {
-          "Codigo": "MEPCL",
-          "Nombre": "Maestr\u00eda Epidemiolog\u00eda Cl\u00ednica"
-        },
-        {
-          "Codigo": "UROL",
-          "Nombre": "Esp. Urolog\u00eda"
-        },
-        {
-          "Codigo": "ESNEF",
-          "Nombre": "Esp. Nefrolog\u00eda"
-        },
-        {
-          "Codigo": "ESPPG",
-          "Nombre": "Esp. Psiquiatr\u00eda"
-        },
-        {
-          "Codigo": "ESGED",
-          "Nombre": "Esp. Gastroenterolog\u00eda"
-        },
-        {
-          "Codigo": "ENEUM",
-          "Nombre": "Esp. Neumolog\u00eda"
-        },
-        {
-          "Codigo": "ORINF",
-          "Nombre": "Esp. Ortopedia y Traum Pedi\u00e1tr"
-        },
-        {
-          "Codigo": "ESMUR",
-          "Nombre": "Esp. Medicina de Urgencias"
-        },
-        {
-          "Codigo": "ESCAR",
-          "Nombre": "Esp. Cardiolog\u00eda"
-        },
-        {
-          "Codigo": "GINOB",
-          "Nombre": "Esp. Ginecolog\u00eda y Obstetricia"
-        },
-        {
-          "Codigo": "ESCCV",
-          "Nombre": "Esp. Cirug\u00eda Cardiovascular"
-        },
-        {
-          "Codigo": "EMCCI",
-          "Nombre": "Esp. Med Cr\u00edtica y Cuidado Int"
+          "Nombre": "Doctorado en Neurociencias"
         },
         {
           "Codigo": "ESPAN",
-          "Nombre": "Esp. Anestesiolog\u00eda"
+          "Nombre": "Especializaci\u00f3n en Anestesiolog\u00eda"
         },
         {
-          "Codigo": "NEUR",
-          "Nombre": "Esp. Neurocirug\u00eda"
-        },
-        {
-          "Codigo": "ESPEN",
-          "Nombre": "Esp. Psiquiatr\u00eda de Enlace"
-        },
-        {
-          "Codigo": "ORONT",
-          "Nombre": "Esp. Ortopedia y Traumatolog\u00eda"
-        },
-        {
-          "Codigo": "ESRAD",
-          "Nombre": "Esp. Radiolog\u00eda e Im\u00e1genes Dia"
-        },
-        {
-          "Codigo": "ESGER",
-          "Nombre": "Esp. Geriatr\u00eda"
-        },
-        {
-          "Codigo": "NEURL",
-          "Nombre": "Esp. Neurolog\u00eda"
-        },
-        {
-          "Codigo": "ENDOC",
-          "Nombre": "Esp. Endocrinolog\u00eda"
-        },
-        {
-          "Codigo": "ESDER",
-          "Nombre": "Esp. Dermatolog\u00eda"
-        },
-        {
-          "Codigo": "ESCON",
-          "Nombre": "Esp. Cirug\u00eda Oncol\u00f3gica"
+          "Codigo": "ESCAR",
+          "Nombre": "Especializaci\u00f3n en Cardiolog\u00eda"
         },
         {
           "Codigo": "EHCIN",
-          "Nombre": "Esp. Cardiolog\u00eda Interv Hemodi"
+          "Nombre": "Especializaci\u00f3n en Cardiolog\u00eda Intervencionista y Hemodinamia"
         },
         {
-          "Codigo": "MEDIN",
-          "Nombre": "Esp. Medicina Interna"
+          "Codigo": "ESCCV",
+          "Nombre": "Especializaci\u00f3n en Cirug\u00eda Cardiovascular"
+        },
+        {
+          "Codigo": "ECIMA",
+          "Nombre": "Especializaci\u00f3n en Cirug\u00eda de Mano"
+        },
+        {
+          "Codigo": "ESPCG",
+          "Nombre": "Especializaci\u00f3n en Cirug\u00eda General"
+        },
+        {
+          "Codigo": "ESCON",
+          "Nombre": "Especializaci\u00f3n en Cirug\u00eda Oncol\u00f3gica"
+        },
+        {
+          "Codigo": "ESCPL",
+          "Nombre": "Especializaci\u00f3n en Cirug\u00eda Pl\u00e1stica Reconstructiva y Est\u00e9tica"
+        },
+        {
+          "Codigo": "ESDER",
+          "Nombre": "Especializaci\u00f3n en Dermatolog\u00eda"
+        },
+        {
+          "Codigo": "EPPS",
+          "Nombre": "Especializaci\u00f3n en Educaci\u00f3n para Profesionales de la Salud - Virtual"
         },
         {
           "Codigo": "ECEAC",
-          "Nombre": "Esp. Electrof CEst ArritmiasC"
+          "Nombre": "Especializaci\u00f3n en Electrofisiolog\u00eda Cl\u00ednica, Estimulaci\u00f3n y Arritmias Card\u00edacas"
         },
         {
-          "Codigo": "ESPED",
-          "Nombre": "Esp. Pediatr\u00eda"
+          "Codigo": "ENDOC",
+          "Nombre": "Especializaci\u00f3n en Endocrinolog\u00eda"
         },
         {
-          "Codigo": "DECLI",
-          "Nombre": "Doctorado Epidemiolog\u00eda Cl\u00ednic"
+          "Codigo": "ESGED",
+          "Nombre": "Especializaci\u00f3n en Gastroenterolog\u00eda"
+        },
+        {
+          "Codigo": "ESGM",
+          "Nombre": "Especializaci\u00f3n en Gen\u00e9tica M\u00e9dica"
+        },
+        {
+          "Codigo": "ESGER",
+          "Nombre": "Especializaci\u00f3n en Geriatr\u00eda"
+        },
+        {
+          "Codigo": "GINOB",
+          "Nombre": "Especializaci\u00f3n en Ginecolog\u00eda y Obstetricia"
+        },
+        {
+          "Codigo": "EINFE",
+          "Nombre": "Especializaci\u00f3n en Infectolog\u00eda"
         },
         {
           "Codigo": "EMAST",
           "Nombre": "Especializaci\u00f3n en Mastolog\u00eda"
         },
         {
+          "Codigo": "EMCCI",
+          "Nombre": "Especializaci\u00f3n en Medicina Cr\u00edtica y Cuidado Intensivo"
+        },
+        {
+          "Codigo": "ESMUR",
+          "Nombre": "Especializaci\u00f3n en Medicina de Urgencias"
+        },
+        {
+          "Codigo": "EDCP",
+          "Nombre": "Especializaci\u00f3n en Medicina del Dolor y Cuidados Paliativos"
+        },
+        {
+          "Codigo": "EMEDF",
+          "Nombre": "Especializaci\u00f3n en Medicina Familiar"
+        },
+        {
+          "Codigo": "MEDIN",
+          "Nombre": "Especializaci\u00f3n en Medicina Interna"
+        },
+        {
+          "Codigo": "ESNEF",
+          "Nombre": "Especializaci\u00f3n en Nefrolog\u00eda"
+        },
+        {
+          "Codigo": "ENEON",
+          "Nombre": "Especializaci\u00f3n en Neonatolog\u00eda"
+        },
+        {
+          "Codigo": "ENEUM",
+          "Nombre": "Especializaci\u00f3n en Neumolog\u00eda"
+        },
+        {
+          "Codigo": "NEUR",
+          "Nombre": "Especializaci\u00f3n en Neurocirug\u00eda"
+        },
+        {
+          "Codigo": "NEURL",
+          "Nombre": "Especializaci\u00f3n en Neurolog\u00eda"
+        },
+        {
+          "Codigo": "OFTAL",
+          "Nombre": "Especializaci\u00f3n en Oftalmolog\u00eda"
+        },
+        {
+          "Codigo": "ORONT",
+          "Nombre": "Especializaci\u00f3n en Ortopedia y Traumatolog\u00eda"
+        },
+        {
+          "Codigo": "ORINF",
+          "Nombre": "Especializaci\u00f3n en Ortopedia y Traumatolog\u00eda Pedi\u00e1trica"
+        },
+        {
+          "Codigo": "OTRLG",
+          "Nombre": "Especializaci\u00f3n en Otorrinolaringolog\u00eda"
+        },
+        {
+          "Codigo": "ESPAT",
+          "Nombre": "Especializaci\u00f3n en Patolog\u00eda"
+        },
+        {
+          "Codigo": "ESPED",
+          "Nombre": "Especializaci\u00f3n en Pediatr\u00eda"
+        },
+        {
+          "Codigo": "ESPPG",
+          "Nombre": "Especializaci\u00f3n en Psiquiatr\u00eda"
+        },
+        {
+          "Codigo": "ESPEN",
+          "Nombre": "Especializaci\u00f3n en Psiquiatr\u00eda de Enlace"
+        },
+        {
+          "Codigo": "SPNAD",
+          "Nombre": "Especializaci\u00f3n en Psiquiatr\u00eda de Ni\u00f1os y Adolescentes"
+        },
+        {
+          "Codigo": "ESRAD",
+          "Nombre": "Especializaci\u00f3n en Radiolog\u00eda e Im\u00e1genes Diagn\u00f3sticas"
+        },
+        {
+          "Codigo": "EREUM",
+          "Nombre": "Especializaci\u00f3n en Reumatolog\u00eda"
+        },
+        {
+          "Codigo": "UROL",
+          "Nombre": "Especializaci\u00f3n en Urolog\u00eda"
+        },
+        {
+          "Codigo": "MBEST",
+          "Nombre": "Maestr\u00eda en Bioestad\u00edstica"
+        },
+        {
           "Codigo": "MEPS",
           "Nombre": "Maestr\u00eda en Educaci\u00f3n para Profesionales de la Salud - Virtual"
         },
         {
-          "Codigo": "PPCPOSMEDIC",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "MEPCL",
+          "Nombre": "Maestr\u00eda en Epidemiolog\u00eda Cl\u00ednica (Bogot\u00e1)"
+        },
+        {
+          "Codigo": "MEPCC",
+          "Nombre": "Maestr\u00eda en Epidemiolog\u00eda Cl\u00ednica (Cali)"
+        },
+        {
+          "Codigo": "PCGME",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Odontología": {
-      "FacultadCodigo": "Facultad de Odontología",
+    "Odontolog\u00eda": {
+      "FacultadCodigo": "Odontolog\u00eda",
       "Programas": [
         {
-          "Codigo": "ESPER",
-          "Nombre": "Esp. Periodoncia"
-        },
-        {
-          "Codigo": "EODON",
-          "Nombre": "Esp. Odontopediatr\u00eda"
+          "Codigo": "ESCMF",
+          "Nombre": "Especializaci\u00f3n en Cirug\u00eda Maxilofacial"
         },
         {
           "Codigo": "ENDOD",
-          "Nombre": "Esp. Endodoncia"
+          "Nombre": "Especializaci\u00f3n en Endodoncia"
         },
         {
-          "Codigo": "PCBCL",
-          "Nombre": "Esp. Patolog\u00eda y Cirug\u00eda Bucal"
-        },
-        {
-          "Codigo": "REHOR",
-          "Nombre": "Esp. Rehabilitaci\u00f3n Oral"
+          "Codigo": "EODON",
+          "Nombre": "Especializaci\u00f3n en Odontopediatr\u00eda"
         },
         {
           "Codigo": "ORTOD",
-          "Nombre": "Esp. Ortodoncia"
+          "Nombre": "Especializaci\u00f3n en Ortodoncia"
         },
         {
-          "Codigo": "ESCMF",
-          "Nombre": "Esp. Cirug\u00eda Maxilo Facial"
+          "Codigo": "PCBCL",
+          "Nombre": "Especializaci\u00f3n en Patolog\u00eda y Cirug\u00eda Bucal"
         },
         {
-          "Codigo": "PPCPOSODONT",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "ESPER",
+          "Nombre": "Especializaci\u00f3n en Periodoncia"
+        },
+        {
+          "Codigo": "REHOR",
+          "Nombre": "Especializaci\u00f3n en Rehabilitaci\u00f3n Oral"
+        },
+        {
+          "Codigo": "PCGOD",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Psicología": {
-      "FacultadCodigo": "Facultad de Psicología",
+    "Psicolog\u00eda": {
+      "FacultadCodigo": "Psicolog\u00eda",
       "Programas": [
         {
-          "Codigo": "MNFDC",
-          "Nombre": "Maestr\u00eda Ni\u00f1ez Familia y Desar"
-        },
-        {
-          "Codigo": "MAPCC",
-          "Nombre": "Maestr\u00eda Abordaj Psicos Constr"
+          "Codigo": "DPSIC",
+          "Nombre": "Doctorado en Psicolog\u00eda"
         },
         {
           "Codigo": "MPSCL",
-          "Nombre": "Maestr\u00eda Psicolog\u00eda Cl\u00ednica"
+          "Nombre": "Maestr\u00eda en Psicolog\u00eda Cl\u00ednica"
         },
         {
-          "Codigo": "DPSIC",
-          "Nombre": "Doctorado Psicolog\u00eda"
-        },
-        {
-          "Codigo": "PPCPOSPSICL",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "PCGPS",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     },
-    "Facultad de Teología": {
-      "FacultadCodigo": "Facultad de Teología",
+    "Teolog\u00eda": {
+      "FacultadCodigo": "Teolog\u00eda",
       "Programas": [
         {
-          "Codigo": "MTEOL",
-          "Nombre": "Maestr\u00eda Teolog\u00eda"
-        },
-        {
           "Codigo": "DTEOL",
-          "Nombre": "Doctorado Teolog\u00eda"
+          "Nombre": "Doctorado en Teolog\u00eda"
         },
         {
-          "Codigo": "PPCPOSTEOLG",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "MTEOL",
+          "Nombre": "Maestr\u00eda en Teolog\u00eda"
+        },
+        {
+          "Codigo": "PCGTE",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
     }
   },
   "ECLE": {
-    "Facultad de Derecho Canónico": {
-      "FacultadCodigo": "Facultad de Derecho Canónico",
+    "Derecho Can\u00f3nico": {
+      "FacultadCodigo": "Derecho Can\u00f3nico",
       "Programas": [
         {
           "Codigo": "DEDC",
-          "Nombre": "Doctorado Eclesi\u00e1stico DerCan\u00f3"
+          "Nombre": "Doctorado Eclesi\u00e1stico en Derecho Can\u00f3nico"
         },
         {
           "Codigo": "LECLE",
-          "Nombre": "Licenciatura Eclesi\u00e1stica DCan"
-        },
-        {
-          "Codigo": "PPCNICANON",
-          "Nombre": "No sé qué estudiar"
+          "Nombre": "Licenciatura Eclesi\u00e1stica en Derecho Can\u00f3nico"
         }
       ]
     },
-    "Facultad de Filosofía": {
-      "FacultadCodigo": "Facultad de Filosofía",
+    "Filosof\u00eda": {
+      "FacultadCodigo": "Filosof\u00eda",
       "Programas": [
         {
           "Codigo": "BEFIL",
@@ -1346,605 +1290,40 @@
           "Nombre": "Doctorado Eclesi\u00e1stico en Filosof\u00eda"
         },
         {
-          "Codigo": "PPCNIFILOS",
-          "Nombre": "No sé qué estudiar"
+          "Codigo": "LEFIL",
+          "Nombre": "Licenciatura Eclesi\u00e1stica en Filosof\u00eda"
         }
       ]
     },
-    "Facultad de Teología": {
-      "FacultadCodigo": "Facultad de Teología",
+    "Teolog\u00eda": {
+      "FacultadCodigo": "Teolog\u00eda",
       "Programas": [
         {
-          "Codigo": "BECLV",
-          "Nombre": "Bachiller Eclesi\u00e1stico Teo (v)"
+          "Codigo": "BECLE",
+          "Nombre": "Bachillerato Eclesi\u00e1stico en Teolog\u00eda"
         },
         {
-          "Codigo": "BECLE",
-          "Nombre": "Bachiller Eclesi\u00e1stico Teolog\u00ed"
+          "Codigo": "BECLV",
+          "Nombre": "Bachillerato Eclesi\u00e1stico en Teolog\u00eda - Virtual"
         },
         {
           "Codigo": "DECLE",
-          "Nombre": "Doctorado Eclesi\u00e1stico Teolog\u00ed"
+          "Nombre": "Doctorado Eclesi\u00e1stico en Teolog\u00eda"
         },
         {
           "Codigo": "LETEO",
-          "Nombre": "Lic. Eclesi\u00e1stica Teolog\u00eda"
-        },
-        {
-          "Codigo": "PPCNITEOLG",
-          "Nombre": "No sé qué estudiar"
-        }
-      ]
-    }
-  },
-  "PREU": {
-    "Facultad de Medicina": {
-      "FacultadCodigo": "Facultad de Medicina",
-      "Programas": [
-        {
-          "Codigo": "PUMED",
-          "Nombre": "PreU Medicina"
+          "Nombre": "Licenciatura Eclesi\u00e1stica en Teolog\u00eda"
         }
       ]
     }
   },
   "ETDH": {
-    "Facultad de Odontología": {
-      "FacultadCodigo": "Facultad de Odontología",
+    "Odontolog\u00eda": {
+      "FacultadCodigo": "Odontolog\u00eda",
       "Programas": [
         {
           "Codigo": "ASALO",
-          "Nombre": "T\u00e9c.Laboral Auxiliar SaludOral"
-        }
-      ]
-    }
-  },
-  "CONF": {
-    "SIN FACULTAD": {
-      "FacultadCodigo": "SIN FACULTAD",
-      "Programas": [
-        {
-          "Codigo": "PPCNI",
-          "Nombre": "No sé qué estudiar"
-        },
-        {
-          "Codigo": "NOAP",
-          "Nombre": "No es un aspirante"
-        }
-      ]
-    },
-    "Facultad de Artes": {
-      "FacultadCodigo": "Facultad de Artes",
-      "Programas": [
-        {
-          "Codigo": "PPCNIARTES",
-          "Nombre": "No sé qué estudiar Facultad de Artes"
-        }
-      ]
-    },
-    "Facultad de Arquitectura y Diseño": {
-      "FacultadCodigo": "Facultad de Arquitectura y Diseño",
-      "Programas": [
-        {
-          "Codigo": "PPCNIARQDI",
-          "Nombre": "No sé qué estudiar Facultad de Arquitectura y Dise\u00f1o"
-        }
-      ]
-    },
-    "Facultad de Ciencias": {
-      "FacultadCodigo": "Facultad de Ciencias",
-      "Programas": [
-        {
-          "Codigo": "PPCNICCIAS",
-          "Nombre": "No sé qué estudiar Facultad de Ciencias"
-        }
-      ]
-    },
-    "Facultad de Ciencias Jurídicas": {
-      "FacultadCodigo": "Facultad de Ciencias Jurídicas",
-      "Programas": [
-        {
-          "Codigo": "PPCNICJURD",
-          "Nombre": "No sé qué estudiar Facultad de Ciencias Jur\u00eddicas"
-        }
-      ]
-    },
-    "Facultad de Ciencias Económicas y Administrativas": {
-      "FacultadCodigo": "Facultad de Ciencias Económicas y Administrativas",
-      "Programas": [
-        {
-          "Codigo": "PPCNICECON",
-          "Nombre": "No sé qué estudiar Facultad de Ciencias Econ\u00f3micas y Administrativas"
-        }
-      ]
-    },
-    "Facultad de Ciencias Políticas y Relaciones Internacionales": {
-      "FacultadCodigo": "Facultad de Ciencias Políticas y Relaciones Internacionales",
-      "Programas": [
-        {
-          "Codigo": "PPCNICPOLT",
-          "Nombre": "No sé qué estudiar Facultad de Ciencias Pol\u00edticas y Relaciones Internacionales"
-        }
-      ]
-    },
-    "Facultad de Ciencias Sociales": {
-      "FacultadCodigo": "Facultad de Ciencias Sociales",
-      "Programas": [
-        {
-          "Codigo": "PPCNICSOCL",
-          "Nombre": "No sé qué estudiar Facultad de Ciencias Sociales"
-        }
-      ]
-    },
-    "Facultad de Comunicación y Lenguaje": {
-      "FacultadCodigo": "Facultad de Comunicación y Lenguaje",
-      "Programas": [
-        {
-          "Codigo": "PPCNICOMLE",
-          "Nombre": "No sé qué estudiar Facultad de Comunicaci\u00f3n y Lenguaje"
-        }
-      ]
-    },
-    "Facultad de Derecho Canónico": {
-      "FacultadCodigo": "Facultad de Derecho Canónico",
-      "Programas": [
-        {
-          "Codigo": "PPCNICANON",
-          "Nombre": "No sé qué estudiar Facultad de Derecho Can\u00f3nico"
-        }
-      ]
-    },
-    "Facultad de Educación": {
-      "FacultadCodigo": "Facultad de Educación",
-      "Programas": [
-        {
-          "Codigo": "PPCNIEDUCN",
-          "Nombre": "No sé qué estudiar Facultad de Educaci\u00f3n"
-        }
-      ]
-    },
-    "Facultad de Enfermería": {
-      "FacultadCodigo": "Facultad de Enfermería",
-      "Programas": [
-        {
-          "Codigo": "PPCNIENFER",
-          "Nombre": "No sé qué estudiar Facultad de Enfermer\u00eda"
-        }
-      ]
-    },
-    "Facultad de Estudios Ambientales y Rurales": {
-      "FacultadCodigo": "Facultad de Estudios Ambientales y Rurales",
-      "Programas": [
-        {
-          "Codigo": "PPCNIFEARS",
-          "Nombre": "No sé qué estudiar Facultad de Estudios Ambientales y Rurales"
-        }
-      ]
-    },
-    "Facultad de Filosofía": {
-      "FacultadCodigo": "Facultad de Filosofía",
-      "Programas": [
-        {
-          "Codigo": "PPCNIFILOS",
-          "Nombre": "No sé qué estudiar Facultad de Filosof\u00eda"
-        }
-      ]
-    },
-    "Facultad de Ingeniería": {
-      "FacultadCodigo": "Facultad de Ingeniería",
-      "Programas": [
-        {
-          "Codigo": "PPCNIINGEN",
-          "Nombre": "No sé qué estudiar Facultad de Ingenier\u00eda"
-        }
-      ]
-    },
-    "Facultad de Medicina": {
-      "FacultadCodigo": "Facultad de Medicina",
-      "Programas": [
-        {
-          "Codigo": "PPCNIMEDIC",
-          "Nombre": "No sé qué estudiar Facultad de Medicina"
-        }
-      ]
-    },
-    "Facultad de Odontología": {
-      "FacultadCodigo": "Facultad de Odontología",
-      "Programas": [
-        {
-          "Codigo": "PPCNIODONT",
-          "Nombre": "No sé qué estudiar Facultad de Odontolog\u00eda"
-        }
-      ]
-    },
-    "Facultad de Psicología": {
-      "FacultadCodigo": "Facultad de Psicología",
-      "Programas": [
-        {
-          "Codigo": "PPCNIPSICL",
-          "Nombre": "No sé qué estudiar Facultad de Psicolog\u00eda"
-        }
-      ]
-    },
-    "Facultad de Teología": {
-      "FacultadCodigo": "Facultad de Teología",
-      "Programas": [
-        {
-          "Codigo": "PPCNITEOLG",
-          "Nombre": "No sé qué estudiar Facultad de Teolog\u00eda"
-        }
-      ]
-    },
-    "Instituto de Salud P\u00fablica": {
-      "FacultadCodigo": "Instituto de Salud P\u00fablica",
-      "Programas": [
-        {
-          "Codigo": "PPCNISALPU",
-          "Nombre": "No sé qué estudiar Instituto de Salud P\u00fablica"
-        }
-      ]
-    },
-    "Instituto Pensar": {
-      "FacultadCodigo": "Instituto Pensar",
-      "Programas": [
-        {
-          "Codigo": "PPCNIPENSA",
-          "Nombre": "No sé qué estudiar Instituto Pensar"
-        }
-      ]
-    }
-  },
-  "CGRD": {
-    "No sé qué estudiar POSTGRADO": {
-      "FacultadCodigo": "No sé qué estudiar POSTGRADO",
-      "Programas": [
-        {
-          "Codigo": "PPCPOS",
-          "Nombre": "No sé qué estudiar Posgrado"
-        }
-      ]
-    },
-    "Facultad de Odontología": {
-      "FacultadCodigo": "Facultad de Odontología",
-      "Programas": [
-        {
-          "Codigo": "PPCPOSODONT",
-          "Nombre": "No sé qué estudiar Posgrado Facultad de Odontolog\u00eda"
-        }
-      ]
-    },
-    "Facultad de Artes": {
-      "FacultadCodigo": "Facultad de Artes",
-      "Programas": [
-        {
-          "Codigo": "PPCPOSARTES",
-          "Nombre": "No sé qué estudiar Posgrado Facultad de Artes"
-        }
-      ]
-    },
-    "Facultad de Arquitectura y Diseño": {
-      "FacultadCodigo": "Facultad de Arquitectura y Diseño",
-      "Programas": [
-        {
-          "Codigo": "PPCPOSARQDI",
-          "Nombre": "No sé qué estudiar Posgrado Facultad de Arquitectura y Dise\u00f1o"
-        }
-      ]
-    },
-    "Facultad de Ciencias": {
-      "FacultadCodigo": "Facultad de Ciencias",
-      "Programas": [
-        {
-          "Codigo": "PPCPOSCCIAS",
-          "Nombre": "No sé qué estudiar Posgrado Facultad de Ciencias"
-        }
-      ]
-    },
-    "Facultad de Ciencias Económicas y Administrativas": {
-      "FacultadCodigo": "Facultad de Ciencias Económicas y Administrativas",
-      "Programas": [
-        {
-          "Codigo": "PPCPOSCECON",
-          "Nombre": "No sé qué estudiar Posgrado Facultad de Ciencias Econ\u00f3micas y Administrativas"
-        }
-      ]
-    },
-    "Facultad de Ciencias Jurídicas": {
-      "FacultadCodigo": "Facultad de Ciencias Jurídicas",
-      "Programas": [
-        {
-          "Codigo": "PPCPOSCJURD",
-          "Nombre": "No sé qué estudiar Posgrado Facultad de Ciencias Jur\u00eddicas"
-        }
-      ]
-    },
-    "Facultad de Ciencias Políticas y Relaciones Internacionales": {
-      "FacultadCodigo": "Facultad de Ciencias Políticas y Relaciones Internacionales",
-      "Programas": [
-        {
-          "Codigo": "PPCPOSCPOLT",
-          "Nombre": "No sé qué estudiar Posgrado Facultad de Ciencias Pol\u00edticas y Relaciones Internacionales"
-        }
-      ]
-    },
-    "Facultad de Ciencias Sociales": {
-      "FacultadCodigo": "Facultad de Ciencias Sociales",
-      "Programas": [
-        {
-          "Codigo": "PPCPOSCSOCL",
-          "Nombre": "No sé qué estudiar Posgrado Facultad de Ciencias Sociales"
-        }
-      ]
-    },
-    "Facultad de Comunicación y Lenguaje": {
-      "FacultadCodigo": "Facultad de Comunicación y Lenguaje",
-      "Programas": [
-        {
-          "Codigo": "PPCPOSCOMLE",
-          "Nombre": "No sé qué estudiar Posgrado Facultad de Comunicaci\u00f3n y Lenguaje"
-        }
-      ]
-    },
-    "Facultad de Derecho Canónico": {
-      "FacultadCodigo": "Facultad de Derecho Canónico",
-      "Programas": [
-        {
-          "Codigo": "PPCPOSCANON",
-          "Nombre": "No sé qué estudiar Posgrado Facultad de Derecho Can\u00f3nico"
-        }
-      ]
-    },
-    "Facultad de Educación": {
-      "FacultadCodigo": "Facultad de Educación",
-      "Programas": [
-        {
-          "Codigo": "PPCPOSEDUCN",
-          "Nombre": "No sé qué estudiar Posgrado Facultad de Educaci\u00f3n"
-        }
-      ]
-    },
-    "Facultad de Enfermería": {
-      "FacultadCodigo": "Facultad de Enfermería",
-      "Programas": [
-        {
-          "Codigo": "PPCPOSENFER",
-          "Nombre": "No sé qué estudiar Posgrado Facultad de Enfermer\u00eda"
-        }
-      ]
-    },
-    "Facultad de Estudios Ambientales y Rurales": {
-      "FacultadCodigo": "Facultad de Estudios Ambientales y Rurales",
-      "Programas": [
-        {
-          "Codigo": "PPCPOSFEARS",
-          "Nombre": "No sé qué estudiar Posgrado Facultad de Estudios Ambientales y Rurales"
-        }
-      ]
-    },
-    "Facultad de Filosofía": {
-      "FacultadCodigo": "Facultad de Filosofía",
-      "Programas": [
-        {
-          "Codigo": "PPCPOSFILOS",
-          "Nombre": "No sé qué estudiar Posgrado Facultad de Filosof\u00eda"
-        }
-      ]
-    },
-    "Facultad de Ingeniería": {
-      "FacultadCodigo": "Facultad de Ingeniería",
-      "Programas": [
-        {
-          "Codigo": "PPCPOSINGEN",
-          "Nombre": "No sé qué estudiar Posgrado Facultad de Ingenier\u00eda"
-        }
-      ]
-    },
-    "Facultad de Medicina": {
-      "FacultadCodigo": "Facultad de Medicina",
-      "Programas": [
-        {
-          "Codigo": "PPCPOSMEDIC",
-          "Nombre": "No sé qué estudiar Posgrado Facultad de Medicina"
-        }
-      ]
-    },
-    "Facultad de Psicología": {
-      "FacultadCodigo": "Facultad de Psicología",
-      "Programas": [
-        {
-          "Codigo": "PPCPOSPSICL",
-          "Nombre": "No sé qué estudiar Posgrado Facultad de Psicolog\u00eda"
-        }
-      ]
-    },
-    "Facultad de Teología": {
-      "FacultadCodigo": "Facultad de Teología",
-      "Programas": [
-        {
-          "Codigo": "PPCPOSTEOLG",
-          "Nombre": "No sé qué estudiar Posgrado Facultad de Teolog\u00eda"
-        }
-      ]
-    },
-    "Instituto de Salud P\u00fablica": {
-      "FacultadCodigo": "Instituto de Salud P\u00fablica",
-      "Programas": [
-        {
-          "Codigo": "PPCPOSSALPU",
-          "Nombre": "No sé qué estudiar"
-        }
-      ]
-    },
-    "Instituto Pensar": {
-      "FacultadCodigo": "Instituto Pensar",
-      "Programas": [
-        {
-          "Codigo": "PPCPOSPENSA",
-          "Nombre": "No sé qué estudiar Posgrado Instituto Pensar"
-        }
-      ]
-    }
-  },
-  "CPRE": {
-    "No sé qué estudiar PREGRADO": {
-      "FacultadCodigo": "No sé qué estudiar PREGRADO",
-      "Programas": [
-        {
-          "Codigo": "PPCPRE",
-          "Nombre": "No sé qué estudiar Pregrado"
-        }
-      ]
-    },
-    "Facultad de Ciencias Económicas y Administrativas": {
-      "FacultadCodigo": "Facultad de Ciencias Económicas y Administrativas",
-      "Programas": [
-        {
-          "Codigo": "PPCPRECECON",
-          "Nombre": "No sé qué estudiar Pregrado Facultad de Ciencias Econ\u00f3micas y Administrativas"
-        }
-      ]
-    },
-    "Facultad de Arquitectura y Diseño": {
-      "FacultadCodigo": "Facultad de Arquitectura y Diseño",
-      "Programas": [
-        {
-          "Codigo": "PPCPREARQDI",
-          "Nombre": "No sé qué estudiar Pregrado Facultad de Arquitectura y Dise\u00f1o"
-        }
-      ]
-    },
-    "Facultad de Artes": {
-      "FacultadCodigo": "Facultad de Artes",
-      "Programas": [
-        {
-          "Codigo": "PPCPREARTES",
-          "Nombre": "No sé qué estudiar Pregrado Facultad de Artes"
-        }
-      ]
-    },
-    "Facultad de Ciencias": {
-      "FacultadCodigo": "Facultad de Ciencias",
-      "Programas": [
-        {
-          "Codigo": "PPCPRECCIAS",
-          "Nombre": "No sé qué estudiar Pregrado Facultad de Ciencias"
-        }
-      ]
-    },
-    "Facultad de Ciencias Jurídicas": {
-      "FacultadCodigo": "Facultad de Ciencias Jurídicas",
-      "Programas": [
-        {
-          "Codigo": "PPCPRECJURD",
-          "Nombre": "No sé qué estudiar Pregrado Facultad de Ciencias Jur\u00eddicas"
-        }
-      ]
-    },
-    "Facultad de Ciencias Políticas y Relaciones Internacionales": {
-      "FacultadCodigo": "Facultad de Ciencias Políticas y Relaciones Internacionales",
-      "Programas": [
-        {
-          "Codigo": "PPCPRECPOLT",
-          "Nombre": "No sé qué estudiar Pregrado Facultad de Ciencias Pol\u00edticas y Relaciones Internacionales"
-        }
-      ]
-    },
-    "Facultad de Ciencias Sociales": {
-      "FacultadCodigo": "Facultad de Ciencias Sociales",
-      "Programas": [
-        {
-          "Codigo": "PPCPRECSOCL",
-          "Nombre": "No sé qué estudiar Pregrado Facultad de Ciencias Sociales"
-        }
-      ]
-    },
-    "Facultad de Comunicación y Lenguaje": {
-      "FacultadCodigo": "Facultad de Comunicación y Lenguaje",
-      "Programas": [
-        {
-          "Codigo": "PPCPRECOMLE",
-          "Nombre": "No sé qué estudiar Pregrado Facultad de Comunicaci\u00f3n y Lenguaje"
-        }
-      ]
-    },
-    "Facultad de Educación": {
-      "FacultadCodigo": "Facultad de Educación",
-      "Programas": [
-        {
-          "Codigo": "PPCPREEDUCN",
-          "Nombre": "No sé qué estudiar Pregrado Facultad de Educaci\u00f3n"
-        }
-      ]
-    },
-    "Facultad de Enfermería": {
-      "FacultadCodigo": "Facultad de Enfermería",
-      "Programas": [
-        {
-          "Codigo": "PPCPREENFER",
-          "Nombre": "No sé qué estudiar Pregrado Facultad de Enfermer\u00eda"
-        }
-      ]
-    },
-    "Facultad de Estudios Ambientales y Rurales": {
-      "FacultadCodigo": "Facultad de Estudios Ambientales y Rurales",
-      "Programas": [
-        {
-          "Codigo": "PPCPREFEARS",
-          "Nombre": "No sé qué estudiar Pregrado Facultad de Estudios Ambientales y Rurales"
-        }
-      ]
-    },
-    "Facultad de Filosofía": {
-      "FacultadCodigo": "Facultad de Filosofía",
-      "Programas": [
-        {
-          "Codigo": "PPCPREFILOS",
-          "Nombre": "No sé qué estudiar Pregrado Facultad de Filosof\u00eda"
-        }
-      ]
-    },
-    "Facultad de Ingeniería": {
-      "FacultadCodigo": "Facultad de Ingeniería",
-      "Programas": [
-        {
-          "Codigo": "PPCPREINGEN",
-          "Nombre": "No sé qué estudiar Pregrado Facultad de Ingenier\u00eda"
-        }
-      ]
-    },
-    "Facultad de Medicina": {
-      "FacultadCodigo": "Facultad de Medicina",
-      "Programas": [
-        {
-          "Codigo": "PPCPREMEDIC",
-          "Nombre": "No sé qué estudiar Pregrado Facultad de Medicina"
-        }
-      ]
-    },
-    "Facultad de Odontología": {
-      "FacultadCodigo": "Facultad de Odontología",
-      "Programas": [
-        {
-          "Codigo": "PPCPREODONT",
-          "Nombre": "No sé qué estudiar Pregrado Facultad de Odontolog\u00eda"
-        }
-      ]
-    },
-    "Facultad de Psicología": {
-      "FacultadCodigo": "Facultad de Psicología",
-      "Programas": [
-        {
-          "Codigo": "PPCPREPSICL",
-          "Nombre": "No sé qué estudiar Pregrado Facultad de Psicolog\u00eda"
-        }
-      ]
-    },
-    "Facultad de Teología": {
-      "FacultadCodigo": "Facultad de Teología",
-      "Programas": [
-        {
-          "Codigo": "PPCPRETEOLG",
-          "Nombre": "No sé qué estudiar Pregrado Facultad de Teolog\u00eda"
+          "Nombre": "T\u00e9cnico Laboral por Competencias en Auxiliar en Salud Oral"
         }
       ]
     }
