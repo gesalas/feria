@@ -190,10 +190,10 @@
         <input type="hidden" name="debugEmail"
         value="gesalas@javeriana.edu.co">
 
-        <form action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" novalidate="novalidate" class="needs-validation">
+        <!--<form action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" novalidate="novalidate" class="needs-validation">
 
         <input type=hidden name="oid" value="00D7j0000004eQD">
-        <input type=hidden name="retURL" value="https://www.javeriana.edu.co/thank-you-page-ciencias-sociales-pre">
+        <input type=hidden name="retURL" value="https://www.javeriana.edu.co/thank-you-page-ciencias-sociales-pre">-->
 
                 
                 <div class="form-row gap-1 justify-content-center" style="padding:20px;">
@@ -219,26 +219,11 @@
                     <div class="form-row col-12">
                         <div class="form-group col-5">
                             <select id="00N7j000002BI3X" name="00N7j000002BI3X" class="form-control border-top-0 border-left-0 border-right-0 rounded-1" required="">
-                                <option value="">*Tipo de documento</option>
-                                <option value="DR">Documento RAI</option>
-                                <option value="A_ID">Anterior ID (Doble ID)</option>
-                                <option value="N_ID">Nuevo ID (Doble ID)</option>
-                                <option value="CR">Contraseña Registraduria</option>
-                                <option value="LM">Libreta Militar</option>
+                                <option value="">*Tipo de documento</option>                                
                                 <option value="CC">Cédula Ciudadanía</option>
                                 <option value="CE">Cédula Extranjería</option>
-                                <option value="NIT">No Identificación Tributaria</option>
                                 <option value="PA">Pasaporte</option>
-                                <option value="SE">Sin Especificar</option>
-                                <option value="TI">Tarjeta Identidad</option>
-                                <option value="NUIP">Nro Único de Identific Persona</option>
-                                <option value="CP">Carné Diplomarico</option>
-                                <option value="CG">Consecutivo Grados</option>
-                                <option value="CI">Cedula de Identidad</option>
-                                <option value="EX">Extranjería</option>
-                                <option value="OD">Otro Documento</option>
-                                <option value="PEP">Permiso Especial Permanencia</option>
-                                <option value="PTP">Permiso Temporal Protección</option>    
+                                <option value="TI">Tarjeta Identidad</option>   
                                 <!-- Agregar opciones aquí -->
                             </select>
                             <div class="invalid-feedback">
@@ -247,7 +232,7 @@
                         </div>
 
                         <div class="form-group col-7">
-                            <input placeholder="*Número de documento" id="00N7j000002BI3V" class="form-control border-top-0 border-left-0 border-right-0 rounded-1" maxlength="255" name="00N7j000002BI3V" type="number" required="">
+                            <input placeholder="*Número de documento" id="00N7j000002BI3V" class="form-control border-top-0 border-left-0 border-right-0 rounded-1" maxlength="255" name="00N7j000002BI3V" type="text" required="">
                         </div>
                     </div>
                     <!--Email y celular-->
@@ -323,11 +308,10 @@
                         <div class="col-md-6 col-sm-12">
                             <span class="wpcf7-form-control-wrap">
                                 <select class="form-control select validates-as-required form-select rounded-1 text-dark mb-3" name="00NO40000000sTR" id="00NO40000000sTR" required> 
-                                    <option value="">Tipo de asistente</option>
+                                    <option value="">*Tipo de asistente</option>
                                     <option value="Aspirante">Aspirante</option>
-                                    <option value="Estudiante PUJ">Estudiante PUJ</option>
-                                    <option value="Acudiente">Acudiente</option>
-                                    <option value="Padre de familia">Padre de familia</option>
+                                    <option value="Estudiante PUJ">Estudiante PUJ</option>                                    
+                                    <option value="Padre de familia">Padre de familia y/o Acudiente</option>
                                     <option value="Visitante PUJ">Visitante PUJ</option>
                                 </select>
                                 <div class="invalid-feedback">
@@ -340,7 +324,7 @@
                         <div class="col-md-6 col-sm-12" id="nivelAcademicoRow">
                             <span class="wpcf7-form-control-wrap">
                                 <select id="nivelacademico" class="form-control select validates-as-required form-select rounded-1 text-dark mb-3"  name="nivelacademico">
-                                    <option value="">Nivel académico</option>
+                                    <option value="">*Nivel académico</option>
                                     <option value="PREG">Pregrado</option>
                                     <option value="GRAD">Posgrado</option>
                                     <option value="ECLE">Eclesiástico</option>
@@ -355,7 +339,7 @@
                         <div class="col-12">
                             <span class="wpcf7-form-control-wrap">
                                 <select id="Facultad" class="form-control select validates-as-required form-select rounded-1 text-dark  mb-3" name="Facultad">
-                                    <option value="">Seleccionar facultad</option>
+                                    <option value="">*Selecciona la facultad</option>
                                 </select>                                
                             </span>
                         </div>
@@ -366,7 +350,6 @@
                         <div class="col-12">
                             <span class="wpcf7-form-control-wrap">
                                 <select id="00N7j000002BI3p" class="form-control select validates-as-required form-select rounded-1 text-dark mb-3" name="00N7j000002BI3p">
-                                    <option value="">Selecciona el programa</option>
                                 </select>                            
                             </span>
                         </div>
@@ -377,7 +360,7 @@
                         <div class="col-12 mb-3">
                             <span class="wpcf7-form-control-wrap">
                                 <select  id="00N7j000002BY2L" maxlength="20" name="00N7j000002BY2L" class="form-control select validates-as-required form-select rounded-1 text-dark mb-3">
-                                    <option value="">Periodo esperado de Ingreso</option>
+                                    <option value="">*Periodo esperado de Ingreso</option>
                                 </select>
                             </span>
                         </div>
@@ -391,7 +374,7 @@
                                 </select>
 
                             Fuente autorización datos personales:<select  id="00N7j000002BY26" name="00N7j000002BY26" title="Fuente autorización datos personales">
-                                <option value="Landing Expojaveriana">Landing Expojaveriana</option>
+                                <option value="Landing Eventos">Landing Eventos</option>
                                 </select>
                             <label for="lead_source">Origen del candidato</label><select  id="lead_source" name="lead_source">
                                 <option value="Landing Pages">Landing Pages</option>
@@ -421,7 +404,7 @@
                             </div>                                                            
                         </div>
                         <div class="col-md-12" id="autorizacionErrorMessage" style="display: none;">
-                            <p style="color: brown;">La Pontificia Universidad Javeriana requiere de su autorización para el tratamiento de sus datos personales para continuar con el presente proceso, sin la autorización legalmente no podemos darle continuidad al mismo</p>
+                            <p style="color: brown; font-size:0.8rem;">La Pontificia Universidad Javeriana requiere de su autorización para el tratamiento de sus datos personales para continuar con el presente proceso, sin la autorización legalmente no podemos darle continuidad al mismo</p>
                         </div>
                     </div>
                     <!--Botón-->
@@ -430,6 +413,9 @@
                             <button class="btn btn-warning w-100 py-2 text-azul fw-bold" type="submit">Inscríbete ahora</button>
                         </div>
                     </div>
+                    <div id="succesmsg" class="wpcf7-response-output" style="border: 2px solid green; background-color: lightgrey; padding: 10px; border-radius: 5px; display:none;">
+                        Gracias por tu mensaje. Ha sido enviado.
+                    </div>                     
                 </div>
             </div>
         </form>
@@ -497,8 +483,9 @@
     // SCRIPT UBICACION-->
     
         // Función para cargar las opciones de los desplegables desde el archivo JSON
+        var jsonUrl3 = 'https://raw.githubusercontent.com/gesalas/feria/main/ubicaciones.json';
         function cargarOpciones() {
-            fetch('ubicaciones.json')
+            fetch(jsonUrl3)
                 .then(response => response.json())
                 .then(data => {
                     const paisSelect = document.getElementById('00N7j000002BY1c');
@@ -602,94 +589,100 @@
         // Llamar a la función al cargar la página
         cargarOpciones();
     
-    //<!--Script niveles académicos y programas-->
+        //Script niveles académicos y programas-->
+
         document.addEventListener("DOMContentLoaded", function() {
-            var tipoAsistenteDropdown = document.getElementById('00NO40000000sTR');
-            var nivelAcademicoRow = document.getElementById('nivelAcademicoRow');
-            var nivelAcademicoDropdown = document.getElementById('nivelacademico');
-            var facultadDropdown = document.getElementById('Facultad');
-            var programaDropdown = document.getElementById('00N7j000002BI3p');
-            var periodoDropdown = document.getElementById('00N7j000002BY2L');
-            
-            // Ocultar desplegables al inicio
-            nivelAcademicoRow.style.display = 'none';
-            nivelAcademicoDropdown.style.display = 'none';
-            facultadDropdown.style.display = 'none';
-            programaDropdown.style.display = 'none';
-            periodoDropdown.style.display = 'none';
-            
-            tipoAsistenteDropdown.addEventListener('change', function() {
-                if (this.value === 'Aspirante') {
-                    // Mostrar desplegables
-                    nivelAcademicoRow.style.display = 'block';
-                    nivelAcademicoDropdown.style.display = 'block';
-
-                    // Hacer desplegables obligatorios
-                    nivelAcademicoDropdown.required = true;
-                    facultadDropdown.required = true;
-                    programaDropdown.required = true;
-                    periodoDropdown.required = true;
-
-                    // Cargar el archivo JSON
-                    fetch('programas.json')
-                        .then(response => response.json())
-                        .then(data => {
-                            // Manejar los datos del JSON
-                            var programas = data;
-
-                            // Evento para cambiar las facultades al seleccionar nivel académico
-                            nivelAcademicoDropdown.addEventListener('change', function() {
-                                var selectedNivel = this.value;
-                                facultadDropdown.innerHTML = '<option value="">Seleccionar facultad</option>';
-                                programaDropdown.innerHTML = '<option value="">Selecciona el programa</option>';
-                                if (selectedNivel !== "") {
-                                    var facultades = programas[selectedNivel];
-                                    Object.keys(facultades).forEach(function(facultadKey) {
-                                        var facultad = facultades[facultadKey];
-                                        facultadDropdown.innerHTML += '<option value="' + facultad.FacultadCodigo + '">' + facultad.FacultadCodigo + '</option>';
-                                    });
-                                    facultadDropdown.style.display = 'block';
-                                    facultadDropdown.required = true;                                    
-                                } else {
-                                    facultadDropdown.style.display = 'none';
-                                    programaDropdown.style.display = 'none';
-                                    facultadDropdown.required = false;
-                                    programaDropdown.required = false;                                    
-                                }
-                            });
-
-                            // Evento para cambiar los programas al seleccionar facultad
-                            facultadDropdown.addEventListener('change', function() {
-                                var selectedNivel = nivelAcademicoDropdown.value;
-                                var selectedFacultad = this.value;
-                                programaDropdown.innerHTML = '<option value="">Selecciona el programa</option>';
-                                if (selectedFacultad !== "") {
-                                    var programasFacultad = programas[selectedNivel][selectedFacultad].Programas;
-                                    programasFacultad.forEach(function(programa) {
-                                        programaDropdown.innerHTML += '<option value="' + programa.Codigo + '">' + programa.Nombre + '</option>';
-                                    });
-                                    programaDropdown.style.display = 'block';
-                                    periodoDropdown.style.display = 'block';
-                                    programaDropdown.required = true;
-                                } else {
-                                    programaDropdown.style.display = 'none';
-                                    periodoDropdown.style.display = 'none';
-                                    programaDropdown.required = false;
-                                }
-                            });
-                        })
-                        .catch(error => console.error('Error cargando el archivo JSON:', error));
-
+                var tipoAsistenteDropdown = document.getElementById('00NO40000000sTR');
+                var nivelAcademicoRow = document.getElementById('nivelAcademicoRow');
+                var nivelAcademicoDropdown = document.getElementById('nivelacademico');
+                var facultadDropdown = document.getElementById('Facultad');
+                var programaDropdown = document.getElementById('00N7j000002BI3p');
+                var periodoDropdown = document.getElementById('00N7j000002BY2L');
+        
+                // Ocultar desplegables al inicio
+                nivelAcademicoRow.style.display = 'none';
+                nivelAcademicoDropdown.style.display = 'none';
+                facultadDropdown.style.display = 'none';
+                programaDropdown.style.display = 'none';
+                periodoDropdown.style.display = 'none';
+        
+                tipoAsistenteDropdown.addEventListener('change', function() {
+                    if (this.value === 'Aspirante') {
+                        // Mostrar desplegables
+                        nivelAcademicoRow.style.display = 'block';
+                        nivelAcademicoDropdown.style.display = 'block';
+        
+                        // Hacer desplegables obligatorios
+                        nivelAcademicoDropdown.required = true;
+                        facultadDropdown.required = true;
+                        programaDropdown.required = true;
+                        periodoDropdown.required = true;
+        
+                        // Resetear los campos al cambiar el tipo de asistente
+                        resetFieldsOnTypeChange();
+        
+                        // Cargar el archivo JSON
+                        var jsonUrl2 = 'https://raw.githubusercontent.com/gesalas/feria/main/programas.json';
+                        fetch(jsonUrl2)
+                            .then(response => response.json())
+                            .then(data => {
+                                // Manejar los datos del JSON
+                                var programas = data;
+        
+                                // Evento para cambiar las facultades al seleccionar nivel académico
+                                nivelAcademicoDropdown.addEventListener('change', function() {
+                                    var selectedNivel = this.value;
+                                    facultadDropdown.innerHTML = '<option value="">*Selecciona la facultad</option>';
+                                    //programaDropdown.innerHTML = '<option value="">*Selecciona el programa</option>';
+                                    if (selectedNivel !== "") {
+                                        var facultades = programas[selectedNivel];
+                                        Object.keys(facultades).forEach(function(facultadKey) {
+                                            var facultad = facultades[facultadKey];
+                                            facultadDropdown.innerHTML += '<option value="' + facultad.FacultadCodigo + '">' + facultad.FacultadCodigo + '</option>';
+                                        });
+                                        facultadDropdown.style.display = 'block';
+                                        facultadDropdown.required = true;
+                                    } else {
+                                        facultadDropdown.style.display = 'none';
+                                        programaDropdown.style.display = 'none';
+                                        periodoDropdown.style.display = 'none';
+                                        facultadDropdown.required = false;
+                                        programaDropdown.required = false;
+                                    }
+                                });
+        
+                                // Evento para cambiar los programas al seleccionar facultad
+                                facultadDropdown.addEventListener('change', function() {
+                                    var selectedNivel = nivelAcademicoDropdown.value;
+                                    var selectedFacultad = this.value;
+                                    programaDropdown.innerHTML = '<option value="">*Selecciona el programa</option>';
+                                    if (selectedFacultad !== "") {
+                                        var programasFacultad = programas[selectedNivel][selectedFacultad].Programas;
+                                        programasFacultad.forEach(function(programa) {
+                                            programaDropdown.innerHTML += '<option value="' + programa.Codigo + '">' + programa.Nombre + '</option>';
+                                        });
+                                        programaDropdown.style.display = 'block';
+                                        periodoDropdown.style.display = 'block';
+                                        programaDropdown.required = true;
+                                    } else {
+                                        programaDropdown.style.display = 'none';
+                                        periodoDropdown.style.display = 'none';
+                                        programaDropdown.required = false;
+                                    }
+                                });
+                            })
+                            .catch(error => console.error('Error cargando el archivo JSON:', error));
+        
                         // Cargar el archivo JSON de periodos
-                        var jsonUrl = 'https://cloud.cx.javeriana.edu.co/periodo';
-                            fetch('periodos.json')
+                        var jsonUrl = 'https://raw.githubusercontent.com/gesalas/feria/main/periodos.json';
+                        fetch(jsonUrl)
                             .then(response => response.json())
                             .then(periodosData => {
                                 // Evento para cambiar los periodos al seleccionar nivel académico
                                 nivelAcademicoDropdown.addEventListener('change', function() {
                                     var selectedNivel = this.value;
-                                    periodoDropdown.innerHTML = '<option value="">Periodo esperado de Ingreso</option>';
-
+                                    periodoDropdown.innerHTML = '<option value="">*Periodo esperado de Ingreso</option>';
+        
                                     if (selectedNivel !== "") {
                                         var periodos = periodosData[selectedNivel];
                                         Object.keys(periodos).forEach(function(periodoKey) {
@@ -697,27 +690,114 @@
                                             periodoDropdown.innerHTML += '<option value="' + periodo + '">' + periodoKey + '</option>';
                                         });
                                     } else {
-                                        
+                                        periodoDropdown.style.display = 'none';
+                                        periodoDropdown.required = false;
                                     }
                                 });
                             })
                             .catch(error => console.error('Error cargando el archivo JSON de periodos:', error));
-                } else {
-                    // Ocultar desplegables
-                    nivelAcademicoRow.style.display = 'none';
-                    nivelAcademicoDropdown.style.display = 'none';
-                    facultadDropdown.style.display = 'none';
-                    programaDropdown.style.display = 'none';
+                    // Opcione estudiante
+                    }else if (this.value === 'Estudiante PUJ') {
+                        // Mostrar desplegables
+                        nivelAcademicoRow.style.display = 'block';
+                        nivelAcademicoDropdown.style.display = 'block';
+                        periodoDropdown.style.display = 'none';
+        
+                        // Hacer desplegables obligatorios
+                        nivelAcademicoDropdown.required = true;
+                        facultadDropdown.required = true;
+                        programaDropdown.required = true;
+                        periodoDropdown.required = false;
+        
+                        // Resetear los campos al cambiar el tipo de asistente
+                        resetFieldsOnTypeChange();
+        
+                        // Cargar el archivo JSON
+                        var jsonUrl2 = 'https://raw.githubusercontent.com/gesalas/feria/main/programas.json';
+                        fetch(jsonUrl2)
+                            .then(response => response.json())
+                            .then(data => {
+                                // Manejar los datos del JSON
+                                var programas = data;
+        
+                                // Evento para cambiar las facultades al seleccionar nivel académico
+                                nivelAcademicoDropdown.addEventListener('change', function() {
+                                    var selectedNivel = this.value;
+                                    facultadDropdown.innerHTML = '<option value="">*Selecciona la facultad</option>';
+                                    //programaDropdown.innerHTML = '<option value="">*Selecciona el programa</option>';
+                                    if (selectedNivel !== "") {
+                                        var facultades = programas[selectedNivel];
+                                        Object.keys(facultades).forEach(function(facultadKey) {
+                                            var facultad = facultades[facultadKey];
+                                            facultadDropdown.innerHTML += '<option value="' + facultad.FacultadCodigo + '">' + facultad.FacultadCodigo + '</option>';
+                                        });
+                                        facultadDropdown.style.display = 'block';
+                                        facultadDropdown.required = true;
+                                        periodoDropdown.style.display = 'none';
+                                    } else {
+                                        facultadDropdown.style.display = 'none';
+                                        programaDropdown.style.display = 'none';
+                                        periodoDropdown.style.display = 'none';
+                                        facultadDropdown.required = false;
+                                        programaDropdown.required = false;
+                                    }
+                                });
+        
+                                // Evento para cambiar los programas al seleccionar facultad
+                                facultadDropdown.addEventListener('change', function() {
+                                    var selectedNivel = nivelAcademicoDropdown.value;
+                                    var selectedFacultad = this.value;
+                                    programaDropdown.innerHTML = '<option value="">*Selecciona el programa</option>';
+                                    if (selectedFacultad !== "") {
+                                        var programasFacultad = programas[selectedNivel][selectedFacultad].Programas;                                        
+                                        programasFacultad.forEach(function(programa) {
+                                            programaDropdown.innerHTML += '<option value="' + programa.Codigo + '">' + programa.Nombre + '</option>';
+                                        });
+                                        programaDropdown.style.display = 'block';
+                                        periodoDropdown.style.display = 'none';
+                                        programaDropdown.required = true;
+                                    } else {
+                                        programaDropdown.style.display = 'none';
+                                        periodoDropdown.style.display = 'none';
+                                        programaDropdown.required = false;
+                                    }
+                                });
+                            })
+                            
+                            .catch(error => console.error('Error cargando el archivo JSON:', error));
 
-                    // Desactivar obligatoriedad
-                    nivelAcademicoDropdown.required = false;
-                    facultadDropdown.required = false;
-                    programaDropdown.required = false;
-                    periodoDropdown.required = false;
+                            resetFieldsOnTypeChange();
+        
+                    }else {
+                        // Ocultar desplegables
+                        nivelAcademicoRow.style.display = 'none';
+                        nivelAcademicoDropdown.style.display = 'none';
+                        //ocultar programa
+                        programaDropdown.style.display = 'none';
+                        //
+                        facultadDropdown.style.display = 'none';
+                        periodoDropdown.style.display = 'none';
+        
+                        // Desactivar obligatoriedad
+                        nivelAcademicoDropdown.required = false;
+                        facultadDropdown.required = false;
+                        programaDropdown.required = false;
+                        periodoDropdown.required = false;
+        
+                        //Programa por definir si no es Aspirante
+                        programaDropdown.innerHTML = '<option value="NOAP">NOAP</option>';
+                    }
+                });
+        
+                // Función para resetear los campos al cambiar el tipo de asistente
+                function resetFieldsOnTypeChange() {
+                    nivelAcademicoDropdown.value = '';
+                    facultadDropdown.value = '';
+                    programaDropdown.value = '';
+                    periodoDropdown.value = '';
                 }
-            });
-        });
-
+            });   
+        
         // UTMS IMPORTANTE
         function getParameterByName(name, url) {
             if (!url) url = window.location.href;
@@ -744,40 +824,68 @@
         });
 
         // Validación política de tratamiento de datos
-            document.addEventListener("DOMContentLoaded", function() {
-                var autorizacionRadios = document.querySelectorAll('input[name="00N7j000002BI3m"]');
-                var submitButton = document.querySelector('button[type="submit"]');
-                var errorMessage = document.getElementById('autorizacionErrorMessage');
-        
-                // Función para habilitar o deshabilitar el botón según la selección
-                function updateSubmitButton() {
-                    var selectedOption = document.querySelector('input[name="00N7j000002BI3m"]:checked');
-                    if (selectedOption && selectedOption.value === '1') {
-                        submitButton.disabled = false;
-                        errorMessage.style.display = 'none';
-                    }
-                    else if (selectedOption && selectedOption.value === '0') {
-                        errorMessage.style.display = 'block';
-                        submitButton.disabled = true;
-                    } 
-                    else {
-                        submitButton.disabled = true;
-                        errorMessage.style.display = 'none';
-                    }
+        document.addEventListener("DOMContentLoaded", function() {
+            var autorizacionRadios = document.querySelectorAll('input[name="00N7j000002BI3m"]');
+            var submitButton = document.querySelector('button[type="submit"]');
+            var errorMessage = document.getElementById('autorizacionErrorMessage');
+    
+            // Función para habilitar o deshabilitar el botón según la selección
+            function updateSubmitButton() {
+                var selectedOption = document.querySelector('input[name="00N7j000002BI3m"]:checked');
+                if (selectedOption && selectedOption.value === '1') {
+                    submitButton.disabled = false;
+                    errorMessage.style.display = 'none';
                 }
-        
-                // Evento para actualizar el botón cuando cambia la selección
-                autorizacionRadios.forEach(function(radio) {
-                    radio.addEventListener('change', updateSubmitButton);
-                });
-        
-                // Validar el estado inicial
-                updateSubmitButton();
-                        
+                else if (selectedOption && selectedOption.value === '0') {
+                    errorMessage.style.display = 'block';
+                    submitButton.disabled = true;
+                } 
+                else {
+                    submitButton.disabled = true;
+                    errorMessage.style.display = 'none';
+                }
+            }
+    
+            // Evento para actualizar el botón cuando cambia la selección
+            autorizacionRadios.forEach(function(radio) {
+                radio.addEventListener('change', updateSubmitButton);
             });
-    </script>
-<!--http://127.0.0.1:3000/Form.html?utm_source=Comercial&utm_subsource=Invitación&utm_medium=Correo&utm_campaign=Evento_Fin_Conv
+    
+            // Validar el estado inicial
+            updateSubmitButton();                        
+        });
 
+        //Mensaje de éxito
+
+        document.addEventListener('DOMContentLoaded', function () {
+            // Obtén el formulario y el mensaje
+            var formulario = document.getElementById('form_me');
+            var mensajeExito = document.getElementById('successMsg');
+    
+            // Agrega un evento al formulario
+            formulario.addEventListener('submit', function (event) {
+                // Evita que el formulario se envíe normalmente
+                //event.preventDefault();
+    
+                // Muestra el mensaje de éxito
+                mensajeExito.style.display = 'block';
+    
+                // Después de 5 segundos, continúa con las acciones normales del formulario
+                setTimeout(function () {
+                    // Restaura el display del mensaje (por si acaso)
+                    mensajeExito.style.display = 'none';
+                    
+                    // Continúa con el envío normal del formulario
+                    formulario.submit();
+                }, 5000); // 5000 milisegundos = 5 segundos
+            });
+        });
+        
+        
+
+    </script>
+<!--http://127.0.0.1:3000/Form.html?utm_source=Comercial&utm_subsource=Invitación&utm_medium=Correo&utm_campaign=Liferay-->
+<!-- Programa por confirmar: NOAP -->
 
 
         
