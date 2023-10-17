@@ -973,32 +973,6 @@
         }
       ]
     },
-    "Instituto de Salud P\u00fablica": {
-      "FacultadCodigo": "Instituto de Salud P\u00fablica",
-      "Programas": [
-        {
-          "Codigo": "MSAPU",
-          "Nombre": "Maestr\u00eda en Salud P\u00fablica"
-        },
-        {
-          "Codigo": "PCGIS",
-          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
-        }
-      ]
-    },
-    "Instituto Pensar": {
-      "FacultadCodigo": "Instituto Pensar",
-      "Programas": [
-        {
-          "Codigo": "MECMV",
-          "Nombre": "Maestr\u00eda en Estudios Cr\u00edticos de las Migraciones Contempor\u00e1neas - Virtual"
-        },
-        {
-          "Codigo": "PCGIP",
-          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
-        }
-      ]
-    },
     "Medicina": {
       "FacultadCodigo": "Medicina",
       "Programas": [
@@ -1259,6 +1233,32 @@
         },
         {
           "Codigo": "PCGTE",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
+        }
+      ]
+    },
+    "Instituto de Salud P\u00fablica": {
+      "FacultadCodigo": "Instituto de Salud P\u00fablica",
+      "Programas": [
+        {
+          "Codigo": "MSAPU",
+          "Nombre": "Maestr\u00eda en Salud P\u00fablica"
+        },
+        {
+          "Codigo": "PCGIS",
+          "Nombre": "No s\u00e9 qu\u00e9 estudiar"
+        }
+      ]
+    },
+    "Instituto Pensar": {
+      "FacultadCodigo": "Instituto Pensar",
+      "Programas": [
+        {
+          "Codigo": "MECMV",
+          "Nombre": "Maestr\u00eda en Estudios Cr\u00edticos de las Migraciones Contempor\u00e1neas - Virtual"
+        },
+        {
+          "Codigo": "PCGIP",
           "Nombre": "No s\u00e9 qu\u00e9 estudiar"
         }
       ]
