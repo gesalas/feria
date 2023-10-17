@@ -413,7 +413,7 @@
                             <button class="btn btn-warning w-100 py-2 text-azul fw-bold" type="submit">Inscríbete ahora</button>
                         </div>
                     </div>
-                    <div id="succesmsg" class="wpcf7-response-output" style="border: 2px solid green; background-color: lightgrey; padding: 10px; border-radius: 5px; display:none;">
+                    <div id="successMsg" class="wpcf7-response-output" style="border: 2px solid green; background-color: lightgrey; padding: 10px; border-radius: 5px; display:none;">
                         Gracias por tu mensaje. Ha sido enviado.
                     </div>                     
                 </div>
@@ -441,6 +441,15 @@
             });
             }, false);
         })();
+
+        //Caché
+        var formulario = document.getElementById('form_me');
+        window.addEventListener('pageshow', function (event) {
+            if (event.persisted) {
+                // Si la página se ha almacenado en la caché de la sesión (vuelta atrás)
+                formulario.reset();
+            }
+        });
 
         // Validación de caracteres AZ
 
@@ -482,7 +491,7 @@
             
     // SCRIPT UBICACION-->
     
-        // Función para cargar las opciones de los desplegables desde el archivo JSON
+        // Función para cargar las opciones de los desplegables desde el archivo JSON        
         var jsonUrl3 = 'https://raw.githubusercontent.com/gesalas/feria/main/ubicaciones.json';
         function cargarOpciones() {
             fetch(jsonUrl3)
@@ -794,6 +803,7 @@
         
                         //Programa por definir si no es Aspirante
                         programaDropdown.innerHTML = '<option value="NOAP">NOAP</option>';
+                        resetFieldsOnTypeChange();
                     }
                 });
                 // Resetear los campos al cambiar el tipo de asistente
@@ -868,28 +878,40 @@
         //Mensaje de éxito
 
         document.addEventListener('DOMContentLoaded', function () {
-            // Obtén el formulario y el mensaje
+            // Obtén el formulario, el mensaje y los campos obligatorios
             var formulario = document.getElementById('form_me');
             var mensajeExito = document.getElementById('successMsg');
-    
+            var camposObligatorios = document.querySelectorAll('.needs-validation [required]');
+        
             // Agrega un evento al formulario
             formulario.addEventListener('submit', function (event) {
-                // Evita que el formulario se envíe normalmente
-                //event.preventDefault();
-    
-                // Muestra el mensaje de éxito
-                mensajeExito.style.display = 'block';
-    
-                // Después de 5 segundos, continúa con las acciones normales del formulario
-                setTimeout(function () {
-                    // Restaura el display del mensaje (por si acaso)
-                    mensajeExito.style.display = 'none';
-                    
-                    // Continúa con el envío normal del formulario
-                    formulario.submit();
-                }, 5000); // 5000 milisegundos = 5 segundos
+                // Validar campos obligatorios
+                var camposValidos = Array.from(camposObligatorios).every(function (campo) {
+                    return campo.checkValidity();
+                });
+        
+                // Si todos los campos obligatorios son válidos
+                if (camposValidos) {
+                    // Muestra el mensaje de éxito
+                    mensajeExito.style.display = 'block';
+        
+                    // Después de 5 segundos, continúa con las acciones normales del formulario
+                    setTimeout(function () {
+                        // Restaura el display del mensaje (por si acaso)
+                        mensajeExito.style.display = 'none';
+        
+                        // Continúa con el envío normal del formulario
+                        formulario.submit();
+                    }, 6000); // 6 segundos
+                } else {
+                    // Si hay campos no válidos, evita el envío del formulario
+                    event.preventDefault();
+                }
             });
+            
         });
+
+        
         
         
 
