@@ -182,21 +182,21 @@
                 <h3 class="d-block fs-4 text-azul fw-bold text-center text-uppercase">Inscríbete aquí</h3>
             </div>
         </div>                  
-        <form id="form_me" action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D7j0000004eQD" method="post" novalidate aria-label="Formulario de contacto" novalidate="novalidate" class="needs-validation">
-        <input type=hidden name="oid" value="00D7j0000004eQD">
-        <input type=hidden name="retURL" value="https://unijaveriana--prue7feb23.sandbox.lightning.force.com/lightning/setup/LeadWebtoleads/page?address=%2F_ui%2Fcommon%2Fconfig%2Fentity%2FWebToLeadUi%2Fe%3FretURL%3D%252Flead%252Fleadcapture.jsp%26setupid%3DLeadWebtoleads">
+        <form id="form_me" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="post" novalidate aria-label="Formulario de contacto" novalidate="novalidate" class="needs-validation">
+        <input type=hidden name="oid" value="00Df4000003l8Bf">
+        <input type=hidden name="retURL" value="https://www.javeriana.edu.co/info-prg/thank-you-page-evento-financiero">
         <!--  modo de depuración-->
-        <input type="hidden" name="debug" value=1>
+        <!--<input type="hidden" name="debug" value=1>
         <input type="hidden" name="debugEmail"
-        value="gesalas@javeriana.edu.co">
+        value="gesalas@javeriana.edu.co">-->
 
         <!--<form action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" novalidate="novalidate" class="needs-validation">
 
         <input type=hidden name="oid" value="00D7j0000004eQD">
-        <input type=hidden name="retURL" value="https://www.javeriana.edu.co/thank-you-page-ciencias-sociales-pre">-->
+        <input type=hidden name="retURL" value="https://www.javeriana.edu.co/thank-you-page-ciencias-sociales-pre">
 
                 
-                <div class="form-row gap-1 justify-content-center" style="padding:20px;">
+                <div class="form-row gap-1 justify-content-center" style="padding:20px;">-->
 
                     <!--Nombres y apellidos-->
                     <div class="form-row col-12">
@@ -218,7 +218,7 @@
                     <!--Documentos de identidad-->
                     <div class="form-row col-12">
                         <div class="form-group col-5">
-                            <select id="00N7j000002BI3X" name="00N7j000002BI3X" class="form-control border-top-0 border-left-0 border-right-0 rounded-1" required="">
+                            <select id="00N5G00000WmhsT" name="00N5G00000WmhsT" class="form-control border-top-0 border-left-0 border-right-0 rounded-1" required="">
                                 <option value="">*Tipo de documento</option>                                
                                 <option value="CC">Cédula Ciudadanía</option>
                                 <option value="CE">Cédula Extranjería</option>
@@ -232,7 +232,7 @@
                         </div>
 
                         <div class="form-group col-7">
-                            <input placeholder="*Número de documento" id="00N7j000002BI3V" class="form-control border-top-0 border-left-0 border-right-0 rounded-1" maxlength="255" name="00N7j000002BI3V" type="text" required="">
+                            <input placeholder="*Número de documento" id="00N5G00000WmhsR" class="form-control border-top-0 border-left-0 border-right-0 rounded-1" maxlength="255" name="00N5G00000WmhsR" type="text" required="">
                         </div>
                     </div>
                     <!--Email y celular-->
@@ -274,7 +274,7 @@
                     <div class="form-row col-12 ">
                         <!-- Pais -->
                         <div class="form-group col-12">
-                            <select class="form-control border-top-0 border-left-0 border-right-0 rounded-1" id="00N7j000002BY1c" name="00N7j000002BY1c" type="text" required>
+                            <select class="form-control border-top-0 border-left-0 border-right-0 rounded-1" id="00N5G00000WmhvJ" name="00N5G00000WmhvJ" type="text" required>
                                 <option value="">*Pais de residencia</option>
                             </select>
                             <div class="invalid-feedback">
@@ -284,7 +284,7 @@
                     
                         <!-- Departamento -->
                         <div class="form-group col-md-6 col-sm-12" id="departamentoContainer" style="display: none;">
-                            <select class="form-control border-top-0 border-left-0 border-right-0 rounded-1" id="00N7j000002BY1h" name="00N7j000002BY1h" type="text" >
+                            <select class="form-control border-top-0 border-left-0 border-right-0 rounded-1" id="00N5G00000WmhvX" name="00N5G00000WmhvX" type="text" >
                                 <option value="">*Selecciona el departamento</option>
                             </select>
                             <div class="invalid-feedback">
@@ -294,7 +294,7 @@
                     
                         <!-- Ciudad -->
                         <div class="form-group col-md-6 col-sm-12" id="ciudadContainer" style="display: none;">
-                            <select class="form-control border-top-0 border-left-0 border-right-0 rounded-1" id="00N7j000002BY1i" name="00N7j000002BY1i" type="text" >
+                            <select class="form-control border-top-0 border-left-0 border-right-0 rounded-1" id="00N5G00000WmhvO" name="00N5G00000WmhvO" type="text" >
                                 <option value="">*Selecciona la Ciudad</option>
                             </select>
                             <div class="invalid-feedback">
@@ -307,7 +307,7 @@
                     <div class="form-row col-12">
                         <div class="col-md-6 col-sm-12">
                             <span class="wpcf7-form-control-wrap">
-                                <select class="form-control select validates-as-required form-select rounded-1 text-dark mb-3" name="00NO40000000sTR" id="00NO40000000sTR" required> 
+                                <select class="form-control select validates-as-required form-select rounded-1 text-dark mb-3" name="00NJw000001J3g6" id="00NJw000001J3g6" required> 
                                     <option value="">*Tipo de asistente</option>
                                     <option value="Aspirante">Aspirante</option>
                                     <option value="Estudiante PUJ">Estudiante PUJ</option>                                    
@@ -349,7 +349,7 @@
                     <div class="form-row col-12" >
                         <div class="col-12">
                             <span class="wpcf7-form-control-wrap">
-                                <select id="00N7j000002BI3p" class="form-control select validates-as-required form-select rounded-1 text-dark mb-3" name="00N7j000002BI3p">
+                                <select id="00N5G00000WmhvV" class="form-control select validates-as-required form-select rounded-1 text-dark mb-3" name="00N5G00000WmhvV">
                                 </select>                            
                             </span>
                         </div>
@@ -359,7 +359,7 @@
                     <div class="form-row col-12" >
                         <div class="col-12 mb-3">
                             <span class="wpcf7-form-control-wrap">
-                                <select  id="00N7j000002BY2L" maxlength="20" name="00N7j000002BY2L" class="form-control select validates-as-required form-select rounded-1 text-dark mb-3">
+                                <select  id="00N5G00000WmhvI" maxlength="20" name="00N5G00000WmhvI" class="form-control select validates-as-required form-select rounded-1 text-dark mb-3">
                                     <option value="">*Periodo esperado de Ingreso</option>
                                 </select>
                             </span>
@@ -369,11 +369,11 @@
                     <!-- para ocultar-->
                     <div style="display: none;">
                         <div class="form-row">
-                            Origen de la Solicitud:<select  id="00NO40000002ZeP" name="00NO40000002ZeP" title="Origen de la Solicitud">
+                            Origen de la Solicitud:<select  id="00NJw000001J3Hl" name="00NJw000001J3Hl" title="Origen de la Solicitud">
                                 <option value="Web to Lead">Web to Lead</option>
                                 </select>
 
-                            Fuente autorización datos personales:<select  id="00N7j000002BY26" name="00N7j000002BY26" title="Fuente autorización datos personales">
+                            Fuente autorización datos personales:<select  id="00N5G00000WmhvT" name="00N5G00000WmhvT" title="Fuente autorización datos personales">
                                 <option value="Landing Eventos">Landing Eventos</option>
                                 </select>
                             <label for="lead_source">Origen del candidato</label><select  id="lead_source" name="lead_source">
@@ -383,10 +383,10 @@
 
                         <!--UTMS-->
                         <div class="form-row">
-                            Fuente:<input  id="00N7j000002BKgW" name="00N7j000002BKgW" title="Fuente" type="text"/>
-                            Subfuente:<input  id="00N7j000002BKgb" name="00N7j000002BKgb" title="Subfuente" type="text"/>
-                            Medio <input  id="00NO40000001izt" name="00NO40000001izt" title="Medio" type="text"/>
-                            Campaña:<input  id="00N7j000002BfkF" maxlength="255" name="00N7j000002BfkF"  type="text"/>
+                            Fuente:<input  id="00N5G00000WmhvW" name="00N5G00000WmhvW" title="Fuente" type="text"/>
+                            Subfuente:<input  id="00N5G00000WmhvZ" name="00N5G00000WmhvZ" title="Subfuente" type="text"/>
+                            Medio <input  id="00NJw000001J3g8" name="00NJw000001J3g8" title="Medio" type="text"/>
+                            Campaña:<input  id="00N5G00000Wmi8x" maxlength="255" name="00N5G00000Wmi8x"  type="text"/>
                         </div>
                     </div>                    
 
@@ -395,11 +395,11 @@
                         <div class="col-12">
                             <span class="d-block text-azul">¿Autoriza usted el tratamiento de sus datos personales de acuerdo con la <a href="https://javeriana.ingresouniversitario.com/wp-content/uploads/2023/09/autorizacion-de-privacidad.pdf" class=" text-azul fw-medium text-decoration-underline" target="_blank" download="">autorización de privacidad</a>?</span>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" id="00N7j000002BI3m" name="00N7j000002BI3m" value="1">
-                                <label class="form-check-label text-azul" for="00N7j000002BI3m">Sí</label><br>                                
+                                <input class="form-check-input" type="radio" id="00N5G00000WmhvF" name="00N5G00000WmhvF" value="1">
+                                <label class="form-check-label text-azul" for="00N5G00000WmhvF">Sí</label><br>                                
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="00N7j000002BI3m" id="00N7j000002BI3m" value="0">
+                                <input class="form-check-input" type="radio" name="00N5G00000WmhvF" id="00N5G00000WmhvF" value="0">
                                 <label class="form-check-label text-azul" for="autorizacion-2">No</label>
                             </div>                                                            
                         </div>
@@ -497,9 +497,9 @@
             fetch(jsonUrl3)
                 .then(response => response.json())
                 .then(data => {
-                    const paisSelect = document.getElementById('00N7j000002BY1c');
-                    const departamentoSelect = document.getElementById('00N7j000002BY1h');
-                    const ciudadSelect = document.getElementById('00N7j000002BY1i');
+                    const paisSelect = document.getElementById('00N5G00000WmhvJ');
+                    const departamentoSelect = document.getElementById('00N5G00000WmhvX');
+                    const ciudadSelect = document.getElementById('00N5G00000WmhvO');
                     const departamentoContainer = document.getElementById('departamentoContainer');
                     const ciudadContainer = document.getElementById('ciudadContainer');
 
@@ -601,12 +601,12 @@
         //Script niveles académicos y programas-->
 
         document.addEventListener("DOMContentLoaded", function() {
-                var tipoAsistenteDropdown = document.getElementById('00NO40000000sTR');
+                var tipoAsistenteDropdown = document.getElementById('00NJw000001J3g6');
                 var nivelAcademicoRow = document.getElementById('nivelAcademicoRow');
                 var nivelAcademicoDropdown = document.getElementById('nivelacademico');
                 var facultadDropdown = document.getElementById('Facultad');
-                var programaDropdown = document.getElementById('00N7j000002BI3p');
-                var periodoDropdown = document.getElementById('00N7j000002BY2L');
+                var programaDropdown = document.getElementById('00N5G00000WmhvV');
+                var periodoDropdown = document.getElementById('00N5G00000WmhvI');
         
                 // Ocultar desplegables al inicio
                 nivelAcademicoRow.style.display = 'none';
@@ -837,21 +837,21 @@
             var utmCampaign = getParameterByName('utm_campaign');
     
             // Asignar valores a los campos
-            document.getElementById('00N7j000002BKgW').value = utmSource || '';
-            document.getElementById('00N7j000002BKgb').value = utmSubsource || '';
-            document.getElementById('00NO40000001izt').value = utmMedium || '';
-            document.getElementById('00N7j000002BfkF').value = utmCampaign || '';
+            document.getElementById('00N5G00000WmhvW').value = utmSource || '';
+            document.getElementById('00N5G00000WmhvZ').value = utmSubsource || '';
+            document.getElementById('00NJw000001J3g8').value = utmMedium || '';
+            document.getElementById('00N5G00000Wmi8x').value = utmCampaign || '';
         });
 
         // Validación política de tratamiento de datos
         document.addEventListener("DOMContentLoaded", function() {
-            var autorizacionRadios = document.querySelectorAll('input[name="00N7j000002BI3m"]');
+            var autorizacionRadios = document.querySelectorAll('input[name="00N5G00000WmhvF"]');
             var submitButton = document.querySelector('button[type="submit"]');
             var errorMessage = document.getElementById('autorizacionErrorMessage');
     
             // Función para habilitar o deshabilitar el botón según la selección
             function updateSubmitButton() {
-                var selectedOption = document.querySelector('input[name="00N7j000002BI3m"]:checked');
+                var selectedOption = document.querySelector('input[name="00N5G00000WmhvF"]:checked');
                 if (selectedOption && selectedOption.value === '1') {
                     submitButton.disabled = false;
                     errorMessage.style.display = 'none';
@@ -918,8 +918,6 @@
     </script>
 <!--http://127.0.0.1:3000/Form.html?utm_source=Comercial&utm_subsource=Invitación&utm_medium=Correo&utm_campaign=Liferay-->
 <!-- Programa por confirmar: NOAP -->
-
-
         
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
