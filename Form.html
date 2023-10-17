@@ -672,6 +672,8 @@
                                 });
                             })
                             .catch(error => console.error('Error cargando el archivo JSON:', error));
+                            // Resetear los campos al cambiar el tipo de asistente
+                            resetFieldsOnTypeChange();
         
                         // Cargar el archivo JSON de periodos
                         var jsonUrl = 'https://raw.githubusercontent.com/gesalas/feria/main/periodos.json';
@@ -696,6 +698,8 @@
                                 });
                             })
                             .catch(error => console.error('Error cargando el archivo JSON de periodos:', error));
+                            // Resetear los campos al cambiar el tipo de asistente
+                            resetFieldsOnTypeChange();
                     // Opcione estudiante
                     }else if (this.value === 'Estudiante PUJ') {
                         // Mostrar desplegables
@@ -788,6 +792,8 @@
                         programaDropdown.innerHTML = '<option value="NOAP">NOAP</option>';
                     }
                 });
+                // Resetear los campos al cambiar el tipo de asistente
+                resetFieldsOnTypeChange();
         
                 // Función para resetear los campos al cambiar el tipo de asistente
                 function resetFieldsOnTypeChange() {
