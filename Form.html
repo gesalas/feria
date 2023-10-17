@@ -755,7 +755,10 @@
                                     if (selectedFacultad !== "") {
                                         var programasFacultad = programas[selectedNivel][selectedFacultad].Programas;                                        
                                         programasFacultad.forEach(function(programa) {
+                                            // Verifica si el nombre del programa no es "No sé qué estudiar"
+                                            if (programa.Nombre !== "No sé qué estudiar") {
                                             programaDropdown.innerHTML += '<option value="' + programa.Codigo + '">' + programa.Nombre + '</option>';
+                                            }
                                         });
                                         programaDropdown.style.display = 'block';
                                         periodoDropdown.style.display = 'none';
@@ -766,6 +769,7 @@
                                         programaDropdown.required = false;
                                     }
                                 });
+                                
                             })
                             
                             .catch(error => console.error('Error cargando el archivo JSON:', error));
