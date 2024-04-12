@@ -1,0 +1,32 @@
+SELECT DE.Id,
+DE.PUJ_ApplicantName__c,
+DE.hed__Applicant__c,
+DE.hed__Applying_To__c,
+DE.PUJ_ContactEmail__c,
+DE.PUJ_Campaign__c,
+DE.PUJ_AcademicLevel__c,
+DE.PUJ_ApplicantProspect__c,
+'CO' as Locale,
+CASE
+WHEN DE.hed__Applicant__c IS NULL THEN DE.PUJ_ApplicantProspect__c
+ELSE DE.hed__Applicant__c
+END AS Subscriberkey,
+CASE
+    WHEN LEFT(DE.PUJ_MobilePhone__c, 2) = '57' THEN DE.PUJ_MobilePhone__c
+    ELSE '57'+ DE.PUJ_MobilePhone__c
+  END as PUJ_MobilePhone__c
+FROM (
+SELECT Id,
+PUJ_ApplicantName__c,
+hed__Applicant__c,
+hed__Applying_To__c,
+PUJ_ContactEmail__c,
+PUJ_Campaign__c,
+PUJ_AcademicLevel__c,
+PUJ_ApplicantProspect__c,
+PUJ_MobilePhone__c,
+ROW_NUMBER() OVER (PARTITION BY PUJ_ContactEmail__c ORDER BY PUJ_ContactEmail__c) AS RowNum
+FROM hed__Application__c_Salesforce
+WHERE PUJ_Campaign__c ='701Jw00000M73vlIAB' 
+AND (hed__Applicant__c IS NOT NULL OR PUJ_ApplicantProspect__c IS NOT NULL)
+) AS DE

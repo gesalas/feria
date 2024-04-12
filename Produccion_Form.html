@@ -14,7 +14,7 @@
                 <h3 class="d-block fs-4 text-azul fw-bold text-center text-uppercase">Inscríbete aquí</h3>
             </div>
         </div>                  
-        <form id="form_me" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="post" novalidate aria-label="Formulario de contacto" novalidate="novalidate" class="needs-validation">
+        <form id="form_me" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="post" novalidate aria-label="Formulario de contacto"  class="needs-validation">
         <input type=hidden name="oid" value="00Df4000003l8Bf">
         <input type=hidden name="retURL" value="https://www.javeriana.edu.co/info-prg/thank-you-page-evento-financiero">        
 
@@ -28,7 +28,7 @@
                         </div>
 
                         <div class="form-group col-md-6 col-sm-12">
-                            <input placeholder="*Apellidos" id="last_name" class="form-control border-top-0 border-left-0 border-right-0 rounded-1" maxlength="80" name="last_name" type="text" required="">
+                            <input placeholder="*Apellidos" id="last_name" class="form-control border-top-0 border-left-0 border-right-0 rounded-1 needs-validation" maxlength="80" name="last_name" type="text" required="">
                             <div class="invalid-feedback">
                                 Completa este campo
                             </div>
@@ -52,21 +52,17 @@
                         </div>
 
                         <div class="form-group col-7">
-                            <input placeholder="*Número de documento" id="00N5G00000WmhsR" class="form-control border-top-0 border-left-0 border-right-0 rounded-1" maxlength="255" name="00N5G00000WmhsR" type="text" required="">
+                            <input placeholder="*Número de documento" id="00N5G00000WmhsR" class="form-control border-top-0 border-left-0 border-right-0 rounded-1" maxlength="255" name="00N5G00000WmhsR" type="text" required>
                         </div>
                     </div>
                     <!--Email y celular-->
                     <div class="form-row col-12">
                         <div class="form-group col-12">
-                            <input placeholder="*Email" id="email" class="form-control border-top-0 border-left-0 border-right-0 rounded-1" maxlength="80" name="email" type="email" required="">
+                            <input placeholder="*Email" id="email" class="form-control border-top-0 border-left-0 border-right-0 rounded-1" maxlength="80" name="email" type="email" required>
                             <div class="invalid-feedback">
                                 Ingresa un correo válido
                             </div>
                         </div>
-                        
-                        <script>
-                            
-                        </script>
                         
                     <!--Telefono-->
                         <div class="form-group col-12">
@@ -233,32 +229,62 @@
     <!--Validaciones-->
     <script>
         // Bootstrap Example starter JavaScript for disabling form submissions if there are invalid fields
+        //Validación navegador
+        document.getElementById('form_me').addEventListener('submit', function(event) {
+            if (!customValidation()) {
+                event.preventDefault(); // Evitar envío del formulario si la validación no pasa
+            }
+        });
+
         (function() {
             'use strict';
-            window.addEventListener('load', function() {
+        
             // Fetch all the forms we want to apply custom Bootstrap validation styles to
             var forms = document.getElementsByClassName('needs-validation');
+            
             // Loop over them and prevent submission
             var validation = Array.prototype.filter.call(forms, function(form) {
                 form.addEventListener('submit', function(event) {
-                if (form.checkValidity() === false) {
-                    event.preventDefault();
-                    event.stopPropagation();
-                }
-                form.classList.add('was-validated');
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
                 }, false);
             });
-            }, false);
-        })();
 
-        //Caché
-        var formulario = document.getElementById('form_me');
-        window.addEventListener('pageshow', function (event) {
-            if (event.persisted) {
-                // Si la página se ha almacenado en la caché de la sesión (vuelta atrás)
-                formulario.reset();
+            //tratamiento de datos
+            var autorizacionRadios = document.querySelectorAll('input[name="00N5G00000WmhvF"]');
+            var submitButton = document.querySelector('button[type="submit"]');
+            var errorMessage = document.getElementById('autorizacionErrorMessage');
+        
+            // Función para habilitar o deshabilitar el botón según la selección
+            function updateSubmitButton() {
+                var selectedOption = document.querySelector('input[name="00N5G00000WmhvF"]:checked');
+                if (selectedOption && selectedOption.value === '1') {
+                    submitButton.disabled = false;
+                    errorMessage.style.display = 'none';
+                } else if (selectedOption && selectedOption.value === '0') {
+                    errorMessage.style.display = 'block';
+                    submitButton.disabled = true;
+                } else {
+                    submitButton.disabled = true;
+                    errorMessage.style.display = 'none';
+                }
             }
-        });
+        
+            // Evento para actualizar el botón cuando cambia la selección
+            autorizacionRadios.forEach(function(radio) {
+                radio.addEventListener('change', updateSubmitButton);
+            });
+        
+            // Validar el estado inicial
+            updateSubmitButton(); 
+            
+        })();
+    </script>
+
+    <script> 
 
         //validacion email
         const emailInput = document.getElementById('email');
@@ -317,7 +343,6 @@
     
         // Función para cargar las opciones de los desplegables desde el archivo JSON        
         var jsonUrl3 = 'https://raw.githubusercontent.com/gesalas/feria/main/ubicaciones.json';
-        var XY = 'https://www.javeriana.edu.co/recursosdb/1372208/10609114/ubicaciones.json/42eea925-0d5b-f9b9-e17d-fb7ca71a69ad?t=1697836244890https://raw.githubusercontent.com/gesalas/feria/main/ubicaciones.json';
         function cargarOpciones() {
             fetch(jsonUrl3)
                 .then(response => response.json())
@@ -667,76 +692,7 @@
             document.getElementById('00NJw000001J3g8').value = utmMedium || '';
             document.getElementById('00N5G00000Wmi8x').value = utmCampaign || '';
         });
-
-        // Validación política de tratamiento de datos
-        document.addEventListener("DOMContentLoaded", function() {
-            var autorizacionRadios = document.querySelectorAll('input[name="00N5G00000WmhvF"]');
-            var submitButton = document.querySelector('button[type="submit"]');
-            var errorMessage = document.getElementById('autorizacionErrorMessage');
-    
-            // Función para habilitar o deshabilitar el botón según la selección
-            function updateSubmitButton() {
-                var selectedOption = document.querySelector('input[name="00N5G00000WmhvF"]:checked');
-                if (selectedOption && selectedOption.value === '1') {
-                    submitButton.disabled = false;
-                    errorMessage.style.display = 'none';
-                }
-                else if (selectedOption && selectedOption.value === '0') {
-                    errorMessage.style.display = 'block';
-                    submitButton.disabled = true;
-                } 
-                else {
-                    submitButton.disabled = true;
-                    errorMessage.style.display = 'none';
-                }
-            }
-    
-            // Evento para actualizar el botón cuando cambia la selección
-            autorizacionRadios.forEach(function(radio) {
-                radio.addEventListener('change', updateSubmitButton);
-            });
-    
-            // Validar el estado inicial
-            updateSubmitButton();                        
-        });
-
-        //Mensaje de éxito
-/*
-        document.addEventListener('DOMContentLoaded', function () {
-            // Obtén el formulario, el mensaje y los campos obligatorios
-            var formulario = document.getElementById('form_me');
-            var mensajeExito = document.getElementById('successMsg');
-            var camposObligatorios = document.querySelectorAll('.needs-validation [required]');
-        
-            // Agrega un evento al formulario
-            formulario.addEventListener('submit', function (event) {
-                // Validar campos obligatorios
-                var camposValidos = Array.from(camposObligatorios).every(function (campo) {
-                    return campo.checkValidity();
-                });
-        
-                // Si todos los campos obligatorios son válidos
-                if (camposValidos) {
-                    // Muestra el mensaje de éxito
-                    mensajeExito.style.display = 'block';
-        
-                    // Después de 5 segundos, continúa con las acciones normales del formulario
-                    setTimeout(function () {
-                        // Restaura el display del mensaje (por si acaso)
-                        mensajeExito.style.display = 'none';
-        
-                        // Continúa con el envío normal del formulario
-                        formulario.submit();
-                    }, 6000); // 6 segundos
-                } else {
-                    // Si hay campos no válidos, evita el envío del formulario
-                    event.preventDefault();
-                }
-            });
-            
-        });*/
-
-        
+           
         
         
 
@@ -749,73 +705,3 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
-
-<!--
-//utm parameter´s
-utm_campaign="";
-utm_medium="";
-utm_source="";
-window.onload = function() {
-    try {
-        //capture the javeriana url and parameters
-        var url_string1 = (window.location.href);
-        var url = new URL(url_string1);
-        //capture this parameters
-        var utm_source = url.searchParams.get("utm_source");
-        var utm_medium = url.searchParams.get("utm_medium");
-        var utm_campaign = url.searchParams.get("utm_campaign");
-        //test if the parameters is capture ok
-        console.log(`Source: ${utm_source} Medium ${utm_medium} Campaing ${utm_campaign}`);
-
-
-        let campaing= utm_campaign;
-        let medium = utm_medium;
-        let source = utm_source;
-
-
-
-
-        let adsURL = `${url_string}?utm_campaign=${utm_campaign}&utm_medium=${utm_medium}&utm_source=${utm_source}`;
-			console.log(adsURL);
-			//send the new url to the Iframe
-			myIframe.src = adsURL;
-		} catch (err) {
-			console.log("Issues with Parsing URL Parameter's - " + err);
-		}
-
-
-//sadadsdsadsads
-
-    //utm parameter´s
-	utm_campaign="";
-	utm_medium="";
-	utm_source="";
-    utm_subsource="";
-	window.onload = function() {
-		try {
-			//capture the javeriana url and parameters
-			var url_string1 = (window.location.href);
-			var url = new URL(url_string1);
-			//capture this parameters
-			var utm_source = url.searchParams.get("utm_source");
-			var utm_medium = url.searchParams.get("utm_medium");
-			var utm_campaign = url.searchParams.get("utm_campaign");
-            var utm_subsource = url.searchParams.get("utm_subsource");
-			//test if the parameters is capture ok
-			console.log(`Source: ${utm_source} Medium ${utm_medium} Campaing ${utm_campaign} subsource ${utm_subsource}`);
-		
-			let myIframe = document.getElementById("embeddedIframe");
-			let url_string = "https://www.registroenlinea.co/financiacion-y-convenios-1/";
-			let campaing= utm_campaign;
-			let medium = utm_medium;
-			let source = utm_source;
-            let subsource = utm_subsource;
-
-			let adsURL = `${url_string}?utm_campaign=${utm_campaign}&utm_medium=${utm_medium}&utm_source=${utm_source}&utm_subsource=${utm_subsource}`;
-			console.log(adsURL);
-			//send the new url to the Iframe
-			myIframe.src = adsURL;
-		} catch (err) {
-			console.log("Issues with Parsing URL Parameter's - " + err);
-		}
-	}
