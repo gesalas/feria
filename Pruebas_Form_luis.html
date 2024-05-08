@@ -171,8 +171,11 @@
                         </span>
                     </div>
 
+                    <input type="hidden" name="00N7j000002BI3p" value="NOAP" v-if="data.tipo_asistente=='Padre de familia' || data.tipo_asistente=='Visitante PUJ'">
+
                     <!--Nivel académico-->
-                    <div class="col-md-6 col-sm-12" id="nivelAcademicoRow" v-if="data.tipo_asistente!='' && data.tipo_asistente!='Visitante PUJ'">
+                    <div class="col-md-6 col-sm-12" id="nivelAcademicoRow" v-if="data.tipo_asistente!='' && 
+                    (data.tipo_asistente=='Aspirante' || data.tipo_asistente=='Estudiante PUJ')">
                         <span class="wpcf7-form-control-wrap">
                             <select id="nivelacademico"  v-model="data.nivelacademico" v-on:change="deleteInvalid('nivelacademico')"
                                 class="form-control select validates-as-required form-select rounded-1 text-dark mb-3"
@@ -197,7 +200,7 @@
                             <select id="Facultad" v-model="data.facultad" v-on:change="deleteInvalid('facultad')"
                                 class="form-control select validates-as-required form-select rounded-1 text-dark  mb-3"
                                 name="Facultad" :class="{ error: errors.facultad }">
-                                <option value="">*Selecciona la facultad</option>
+                                <option value="" >*Selecciona la facultad</option>
                                 <option v-for="item in programas[data.nivelacademico]"
                                     v-bind:value="item.FacultadCodigo">{{ item.FacultadCodigo }}</option>
                             </select>
@@ -215,8 +218,9 @@
                             <select id="00N7j000002BI3p" v-model="data.programa" v-on:change="deleteInvalid('programa')"
                                 class="form-control select validates-as-required form-select rounded-1 text-dark mb-3"
                                 name="00N7j000002BI3p" :class="{ error: errors.programa }">
-                                <option value="">*Selecciona el programa</option>
-                                <option v-for="prog in programas[data.nivelacademico][data.facultad].Programas"
+                                <option value="">*Selecciona el programa</option> 
+                                <option value="NOAP" style="display: none;">NOAP</option>                               
+                                <option v-for="prog in programas[data.nivelacademico][data.facultad]?.Programas"
                                     v-bind:value="prog.Codigo">{{ prog.Nombre }}</option>
                             </select>
                             <div class="error_text" v-show="errors.programa">
@@ -235,7 +239,7 @@
                                 class="form-control select validates-as-required form-select rounded-1 text-dark mb-3"
                                 :class="{ error: errors.periodo_esperado }">
                                 <option value="">*Periodo esperado de Ingreso</option>
-                                <option v-for="(index, item) in periodos[data.nivelacademico]" v-bind:value="index">{{
+                                <option v-for="(index, item) in periodoSel" v-bind:value="index">{{
                                     item }}</option>
                             </select>
                             <div class="error_text" v-show="errors.periodo_esperado">
@@ -249,19 +253,19 @@
                 <div style="display: none;">
                     <div class="form-row">
                         Origen de la Solicitud:<select id="00NO40000002ZeP" name="00NO40000002ZeP"
-                            title="Origen de la Solicitud">
+                            v-model="data.origen_sol" title="Origen de la Solicitud">
                             <option selected value="Web to Lead">Web to Lead</option>
                         </select>
 
                         Fuente autorización datos personales:<select id="00N7j000002BY26" name="00N7j000002BY26"
-                            title="Fuente autorización datos personales">
+                            v-model="data.fuenteAutoriza" title="Fuente autorización datos personales">
                             <option value="Landing Eventos">Landing Eventos</option>
                         </select>
                         <label for="lead_source">Origen del candidato</label>
-                        <select id="lead_source" name="lead_source">
+                        <select id="lead_source" v-model="data.lead" name="lead_source">
                             <option value="Landing Pages">Landing Pages</option>
                         </select>
-                        <label for="company">Compañía</label><input id="company" maxlength="40"
+                        <label for="company">Compañía</label><input id="company" v-model="data.company" maxlength="40"
                             name="company" size="20" type="text" value="NA" />
                     </div>
 
@@ -332,6 +336,7 @@
                     programas: [],
                     periodos: [],
                     ubicaciones: [],
+                    periodoSel:[],
                     formInValid: true,
                     data: {
                         first_name: "",
@@ -348,15 +353,16 @@
                         facultad: "",
                         programa: "",
                         periodo_esperado: "",
-                        origen_sol: "",
-                        fuenteAutoriza: "",
-                        lead: "",
-                        company: "",
+                        origen_sol: "Web to Lead",
+                        fuenteAutoriza: "Landing Eventos",
+                        lead: "Landing Pages",
+                        company: "NA",
                         fuente: "",
                         subfuente: "",
                         medio: "",
                         campana: "",
-                        autoriza: ""
+                        autoriza: "",
+                        programNoap:""
                     },
                     errors: {
                         first_name: false,
@@ -396,6 +402,26 @@
                      }else{
                         this.errors.email = false
                      }
+                },
+                'data.nivelacademico':function(newPerido, oldPeriodo){
+                    this.periodoSel = this.periodos[newPerido]
+                    if(newPerido!=oldPeriodo){
+                        this.data.programa = ""
+                        this.data.facultad =""
+                        this.data.periodo_esperado =""
+                    }
+                },
+                'data.facultad':function(newFacultad, oldFacultad){
+                    if(newFacultad!=oldFacultad){
+                        this.data.programa = ""
+                    }
+                },
+                'data.tipo_asistente':function(newAsis, oldAsis){
+                    if(newAsis!=oldAsis){
+                        this.data.nivelacademico = ""
+                        this.data.facultad=""
+                        this.data.programa=""
+                    }
                 }
             },
             mounted() {
@@ -427,15 +453,16 @@
                         facultad: "",
                         programa: "",
                         periodo_esperado: "",
-                        origen_sol: "",
-                        fuenteAutoriza: "",
-                        lead: "",
-                        company: "",
+                        origen_sol: "Web to Lead",
+                        fuenteAutoriza: "Landing Eventos",
+                        lead: "Landing Pages",
+                        company: "NA",
                         fuente: "",
                         subfuente: "",
                         medio: "",
                         campana: "",
-                        autoriza: ""
+                        autoriza: "",
+                        programNoap:""
                     }
                 },
                 /**
