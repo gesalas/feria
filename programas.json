@@ -2,6 +2,7 @@
   "PREG": {
     "Arquitectura y Dise\u00f1o": {
       "FacultadCodigo": "Arquitectura y Dise\u00f1o",
+      "url": "https://www.javeriana.edu.co/thank-you-page-arquidiseno-pre",
       "Programas": [
         {
           "Codigo": "ARQUI",
@@ -19,6 +20,7 @@
     },
     "Artes": {
       "FacultadCodigo": "Artes",
+      "url": "https://www.javeriana.edu.co/thank-you-page-artes-pre",
       "Programas": [
         {
           "Codigo": "ARESC",
@@ -40,6 +42,7 @@
     },
     "Ciencias": {
       "FacultadCodigo": "Ciencias",
+      "url": "https://www.javeriana.edu.co/thank-you-page-ciencias-pre",
       "Programas": [
         {
           "Codigo": "BACTE",
@@ -77,6 +80,7 @@
     },
     "Ciencias Econ\u00f3micas y Administrativas": {
       "FacultadCodigo": "Ciencias Econ\u00f3micas y Administrativas",
+      "url": "https://www.javeriana.edu.co/thank-you-page-cea-pregrado",
       "Programas": [
         {
           "Codigo": "ADMD",
@@ -102,6 +106,7 @@
     },
     "Ciencias Jur\u00eddicas": {
       "FacultadCodigo": "Ciencias Jur\u00eddicas",
+      "url": "https://www.javeriana.edu.co/thank-you-page-ciencias-juridicas-pre",
       "Programas": [
         {
           "Codigo": "DRCHO",
@@ -115,6 +120,7 @@
     },
     "Ciencias Pol\u00edticas y Relaciones Internacionales": {
       "FacultadCodigo": "Ciencias Pol\u00edticas y Relaciones Internacionales",
+      "url": "https://www.javeriana.edu.co/thank-you-page-ciencias-pol-rel-pre",
       "Programas": [
         {
           "Codigo": "POLIT",
@@ -132,6 +138,7 @@
     },
     "Ciencias Sociales": {
       "FacultadCodigo": "Ciencias Sociales",
+      "url": "https://www.javeriana.edu.co/thank-you-page-ciencias-sociales-pre",
       "Programas": [
         {
           "Codigo": "ANTRO",
@@ -157,6 +164,7 @@
     },
     "Comunicaci\u00f3n y Lenguaje": {
       "FacultadCodigo": "Comunicaci\u00f3n y Lenguaje",
+      "url": "https://www.javeriana.edu.co/thank-you-page-comunicacion-pre",
       "Programas": [
         {
           "Codigo": "CIBAR",
@@ -178,6 +186,7 @@
     },
     "Educaci\u00f3n": {
       "FacultadCodigo": "Educaci\u00f3n",
+      "url": "https://www.javeriana.edu.co/thank-you-page-educacion-pre",
       "Programas": [
         {
           "Codigo": "LCNEA",
@@ -207,6 +216,7 @@
     },
     "Enfermer\u00eda": {
       "FacultadCodigo": "Enfermer\u00eda",
+      "url": "https://www.javeriana.edu.co/thank-you-page-enfermeria-pre",
       "Programas": [
         {
           "Codigo": "ENFER",
@@ -220,6 +230,7 @@
     },
     "Estudios Ambientales y Rurales": {
       "FacultadCodigo": "Estudios Ambientales y Rurales",
+      "url": "https://www.javeriana.edu.co/thank-you-page-est-ambientales-pre",
       "Programas": [
         {
           "Codigo": "ECOLG",
@@ -233,6 +244,7 @@
     },
     "Filosof\u00eda": {
       "FacultadCodigo": "Filosof\u00eda",
+      "url": "https://www.javeriana.edu.co/thank-you-page-filosofia-pre",
       "Programas": [
         {
           "Codigo": "FILOS",
@@ -246,6 +258,7 @@
     },
     "Ingenier\u00eda": {
       "FacultadCodigo": "Ingenier\u00eda",
+      "url": "https://www.javeriana.edu.co/thank-you-page-ingenieria-pre",
       "Programas": [
         {
           "Codigo": "BIOIN",
@@ -287,6 +300,7 @@
     },
     "Medicina": {
       "FacultadCodigo": "Medicina",
+      "url": "https://www.javeriana.edu.co/thank-you-page-medicina-pre",
       "Programas": [
         {
           "Codigo": "MEDIC",
@@ -300,6 +314,7 @@
     },
     "Odontolog\u00eda": {
       "FacultadCodigo": "Odontolog\u00eda",
+      "url": "https://www.javeriana.edu.co/thank-you-page-odontologia-pre",
       "Programas": [
         {
           "Codigo": "ODONT",
@@ -313,6 +328,7 @@
     },
     "Psicolog\u00eda": {
       "FacultadCodigo": "Psicolog\u00eda",
+      "url": "https://www.javeriana.edu.co/thank-you-page-psicologia-pre",
       "Programas": [
         {
           "Codigo": "PSICO",
@@ -326,6 +342,7 @@
     },
     "Teolog\u00eda": {
       "FacultadCodigo": "Teolog\u00eda",
+      "url": "https://www.javeriana.edu.co/thank-you-page-teologia-pre",
       "Programas": [
         {
           "Codigo": "LTEOL",
@@ -345,6 +362,7 @@
   "GRAD": {
     "Arquitectura y Dise\u00f1o": {
       "FacultadCodigo": "Arquitectura y Dise\u00f1o",
+      "url": "https://www.javeriana.edu.co/thank-you-page-arquidiseno-pos",
       "Programas": [
         {
           "Codigo": "DGPEX",
@@ -370,6 +388,7 @@
     },
     "Artes": {
       "FacultadCodigo": "Artes",
+      "url": "https://www.javeriana.edu.co/thank-you-page-artes-pos",
       "Programas": [
         {
           "Codigo": "MCAUD",
@@ -387,6 +406,7 @@
     },
     "Ciencias": {
       "FacultadCodigo": "Ciencias",
+      "url": "https://www.javeriana.edu.co/thank-you-page-ciencias-pos",
       "Programas": [
         {
           "Codigo": "DCYTM",
@@ -436,6 +456,7 @@
     },
     "Ciencias Econ\u00f3micas y Administrativas": {
       "FacultadCodigo": "Ciencias Econ\u00f3micas y Administrativas",
+      "url": "https://www.javeriana.edu.co/thank-you-page-cea-pos",
       "Programas": [
         {
           "Codigo": "DECON",
@@ -545,6 +566,7 @@
     },
     "Ciencias Jur\u00eddicas": {
       "FacultadCodigo": "Ciencias Jur\u00eddicas",
+      "url": "https://www.javeriana.edu.co/thank-you-page-ciencias-juridicas-pos",
       "Programas": [
         {
           "Codigo": "DDERC",
@@ -638,6 +660,7 @@
     },
     "Ciencias Pol\u00edticas y Relaciones Internacionales": {
       "FacultadCodigo": "Ciencias Pol\u00edticas y Relaciones Internacionales",
+      "url": "https://www.javeriana.edu.co/thank-you-page-ciencias-pol-rel-pos",
       "Programas": [
         {
           "Codigo": "GGPTB",
@@ -679,6 +702,7 @@
     },
     "Ciencias Sociales": {
       "FacultadCodigo": "Ciencias Sociales",
+      "url": "https://www.javeriana.edu.co/thank-you-page-ciencias-sociales-pos",
       "Programas": [
         {
           "Codigo": "DCSHU",
@@ -716,6 +740,7 @@
     },
     "Comunicaci\u00f3n y Lenguaje": {
       "FacultadCodigo": "Comunicaci\u00f3n y Lenguaje",
+      "url": "https://www.javeriana.edu.co/thank-you-page-comunicacion-pos",
       "Programas": [
         {
           "Codigo": "DCLIN",
@@ -757,6 +782,7 @@
     },
     "Derecho Can\u00f3nico": {
       "FacultadCodigo": "Derecho Can\u00f3nico",
+      "url": "https://www.javeriana.edu.co/thank-you-page-canonico-pos",
       "Programas": [
         {
           "Codigo": "EDMCV",
@@ -774,6 +800,7 @@
     },
     "Educaci\u00f3n": {
       "FacultadCodigo": "Educaci\u00f3n",
+      "url": "https://www.javeriana.edu.co/thank-you-page-educacion-pos",
       "Programas": [
         {
           "Codigo": "ELIGS",
@@ -799,6 +826,7 @@
     },
     "Enfermer\u00eda": {
       "FacultadCodigo": "Enfermer\u00eda",
+      "url": "https://www.javeriana.edu.co/thank-you-page-enfermeria-pos",
       "Programas": [
         {
           "Codigo": "EECC",
@@ -836,6 +864,7 @@
     },
     "Estudios Ambientales y Rurales": {
       "FacultadCodigo": "Estudios Ambientales y Rurales",
+      "url": "https://www.javeriana.edu.co/thank-you-page-est-ambientales-pos",
       "Programas": [
         {
           "Codigo": "DEAMB",
@@ -865,6 +894,7 @@
     },
     "Filosof\u00eda": {
       "FacultadCodigo": "Filosof\u00eda",
+      "url": "https://www.javeriana.edu.co/thank-you-page-filosofia-pos",
       "Programas": [
         {
           "Codigo": "DFILS",
@@ -886,6 +916,7 @@
     },
     "Ingenier\u00eda": {
       "FacultadCodigo": "Ingenier\u00eda",
+      "url": "https://www.javeriana.edu.co/thank-you-page-ingenieria-pos",
       "Programas": [
         {
           "Codigo": "DING",
@@ -975,6 +1006,7 @@
     },
     "Medicina": {
       "FacultadCodigo": "Medicina",
+      "url": "https://www.javeriana.edu.co/thank-you-page-medicina",
       "Programas": [
         {
           "Codigo": "DECLI",
@@ -1180,6 +1212,7 @@
     },
     "Odontolog\u00eda": {
       "FacultadCodigo": "Odontolog\u00eda",
+      "url": "https://www.javeriana.edu.co/thank-you-page-odontologia-pos",
       "Programas": [
         {
           "Codigo": "ESCMF",
@@ -1217,6 +1250,7 @@
     },
     "Psicolog\u00eda": {
       "FacultadCodigo": "Psicolog\u00eda",
+      "url": "https://www.javeriana.edu.co/thank-you-page-psicologia-pos",
       "Programas": [
         {
           "Codigo": "DPSIC",
@@ -1234,6 +1268,7 @@
     },
     "Teolog\u00eda": {
       "FacultadCodigo": "Teolog\u00eda",
+      "url": "https://www.javeriana.edu.co/thank-you-page-teologia-pos",
       "Programas": [
         {
           "Codigo": "DTEOL",
@@ -1251,6 +1286,7 @@
     },
     "Instituto de Salud P\u00fablica": {
       "FacultadCodigo": "Instituto de Salud P\u00fablica",
+      "url": "https://www.javeriana.edu.co/thank-you-page-salud-publica-pos",
       "Programas": [
         {
           "Codigo": "MSAPU",
@@ -1264,6 +1300,7 @@
     },
     "Instituto Pensar": {
       "FacultadCodigo": "Instituto Pensar",
+      "url": "https://www.javeriana.edu.co/thank-you-page-ins-pensar-pos",
       "Programas": [
         {
           "Codigo": "MECMV",
